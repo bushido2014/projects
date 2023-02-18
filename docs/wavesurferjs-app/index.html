@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Wavesurfer List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d"
+            },
+            fontFamily: {
+              roboto: "'Roboto', sans-serif;"
+            }
+          },
+          container: {
+            center: true,
+            padding: "1.5rem"
+          }
+        }
+      };
+    </script>
+    <style type="text/tailwindcss">
+      body {
+        @apply font-roboto antialiased bg-gray-50;
+      }
+      .post {
+        @apply p-4;
+      }
+      .post__title {
+        @apply text-2xl font-bold text-center;
+      }
+      .post__img {
+        @apply block mx-auto py-4;
+      }
+      .post__body {
+        @apply text-base;
+      }
+      .list-group {
+        @apply flex flex-col;
+      }
+      .list-group a {
+        @apply py-3 text-lg px-3 font-bold transition ease-in delay-300 border-b;
+      }
+      .list-group a.active {
+        @apply bg-sky-800 text-white;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="py-8 bg-cyan-800">
+      <div class="container">
+           <h2 class="text-center text-white font-bold lg:text-4xl text-xl">Wavesurfer.js Playlist Example</h2>
+      </div>
+    </header>
+   <div class="container py-12 bg-slate-50">
+<div class="w-full md:max-w-4xl mx-auto bg-white shadow-lg">
+    <div id="demo" class="border">
+      <div class="flex justify-items-center items-center">
+          <div class="none px-6">
+              <button class="btn btn-success btn-block" id="playPause">
+                <span id="play">
+                  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 fill-cyan-800" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                  </svg>
+                </span>
+    
+                <span id="pause" style="display: none;">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 fill-cyan-800" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zM7 8a1 1 0 012 0v4a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v4a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" />
+                  </svg>
+                </span>
+              </button>
+            </div>
+        <div class="grow">
+          <div id="waveform">
+            <!-- Here be waveform -->
+          </div>
+        </div>
+        <div class="timecode px-3">
+          <span id="currentTime" class="text-lg font-bold text-sky-800">00:00:00</span>
+          <span>/</span>
+          <span id="totalDuration" class="text-lg font-bold text-sky-800">00:00:00</span>
+        </div>
+        
+      </div>
+
+      <div class="list-group border-t-2" id="playlist">
+        <a
+          href="https://bushido2014.github.io/music-player-app-js/audio/Ak Discovery.mp3"
+          class="list-group-item"
+        >
+          
+          <span>Ak Discovery</span>
+          
+        </a>
+        
+        <a
+          href="https://bushido2014.github.io/music-player-app-js/audio/Jella Imensity.mp3"
+          class="list-group-item"
+        >
+         <span>
+          Jella Imensity
+         </span>
+         
+        </a>
+
+        <a
+          href="https://bushido2014.github.io/music-player-app-js/audio/Rasi Zamin.mp3"
+          class="list-group-item"
+        >
+          <span>
+          Rasi Zamin
+          </span>
+         
+        </a>
+      </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
