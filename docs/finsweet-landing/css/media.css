@@ -1,0 +1,164 @@
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .nav-mobile {
+    display: block;
+  }
+  .nav {
+    display: none;
+  }
+  .mb-overlay {
+    display: block;
+    margin-top: 15px;
+  }
+  .nav-button-wrapp {
+    display: none;
+  }
+  .home-section {
+    grid-template-columns: 1fr;
+  }
+  .footer_content {
+    padding-bottom: 15px;
+  }
+  .about-us-wrapper {
+    grid-template-columns: 1.5fr;
+  }
+  .about-us-wrapper img,
+  .mission-image img {
+    width: 100%;
+  }
+
+  .mission-wrapper {
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+  }
+  .about-company_columns {
+    grid-template-columns: 1fr;
+  }
+  .process-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+  .benefits-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+  .brands-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .brands-logos {
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: flex-start;
+  }
+  .team-wrapper,
+  .pricing-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+  .revision-wrapper,
+  .delivery-wrapper,
+  .client-wrapper,
+  .suport-wrapper,
+  .faq-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .feature-img {
+    width: 100%;
+    height: 26rem;
+    object-fit: cover;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 800px) {
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  .cta-wrapp.flex {
+    flex-direction: column;
+  }
+  .cta-column {
+    width: 100%;
+  }
+  .blog-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .blog-wrapper img,
+  .project-link img {
+    width: 100%;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .work-wrapper,
+  .work-item.grid,
+  .projects.grid,
+  .features-wrapper,
+  .testimonial-content,
+  .footer-top .grid,
+  .pricing-cards {
+    grid-template-columns: 1fr;
+  }
+  .testimonial-content_left {
+    margin-bottom: 2rem;
+  }
+  .cta-column.form {
+    padding-left: 4rem;
+    prefix: 4rem;
+  }
+  .benefits-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .brands-logos {
+    grid-template-columns: 1fr 1fr;
+  }
+  .feature-img {
+    height: 20rem;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 600px) {
+  .process-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .team-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+}
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+}
