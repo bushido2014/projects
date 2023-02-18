@@ -1,0 +1,145 @@
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .descop .menu,
+  .descop .contact-link {
+    display: none;
+  }
+  .modal {
+    display: block;
+  }
+  .sub-header--images {
+    height: 100%;
+  }
+  .sub-header--laptop {
+    width: 200px;
+  }
+  .sub-header--laptop img {
+    width: initial;
+    margin-left: 15px;
+  }
+  .sub-header--oval {
+    top: 130px;
+  }
+  .sub-header--shape {
+    right: 15px;
+  }
+  .sub-header--user {
+    bottom: 40%;
+    width: 190px;
+  }
+  .sub-header--combine {
+    bottom: 55%;
+  }
+  .sub-header--block {
+    width: 190px;
+    height: auto;
+    bottom: 40%;
+  }
+  .sub-header--line {
+    width: 200px;
+    bottom: 30%;
+  }
+  .sub-header--desc::before {
+    display: none;
+  }
+  .clients-img {
+    margin: 20px 0;
+  }
+  .testimonial-items {
+    height: 100%;
+  }
+  .testomonials .grid-x:nth-child(2) .cell:nth-child(2) .testimonial-items {
+    margin-top: initial;
+  }
+}
+@media only screen and (max-width: 868px) {
+  .sub-header--images {
+    background-image: none;
+    min-height: 500px;
+  }
+  .sub-header--user {
+    width: 160px;
+    bottom: 50px;
+  }
+  .sub-header--laptop {
+    width: 160px;
+    padding-top: 60px;
+  }
+  .sub-header--block {
+    width: 160px;
+    bottom: 50px;
+  }
+  .sub-header--line {
+    width: 150px;
+    bottom: 0;
+  }
+  .sub-header--combine {
+    bottom: 30%;
+    width: 130px;
+  }
+  .sub-header--desc h1 {
+    font-size: 2.2rem;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .features-content .menu {
+    margin-left: 40px;
+    padding-left: 15px;
+  }
+  .portfolio-item {
+    padding: 10px 0;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .grid-image {
+    text-align: center;
+    margin: 15px 0;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 600px) {
+  .map-form {
+    left: 0;
+    right: 0;
+  }
+  .portfolio-item--img {
+    width: 100%;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+}
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+}
