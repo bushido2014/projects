@@ -1,3 +1,3 @@
 # projects
 
-landingpages, html multipage websites, apps
+landing pages, html multipage websites, apps
