@@ -962,5 +962,12 @@ section.partners {
 .cases-wrapp {
   grid-template-columns: repeat(2, 1fr);
 }
-
+.cases__article {
+}
+.cases__image {
+}
+.cases__amount {
+}
+.cases__info {
+}
 /* End Cases Page */
