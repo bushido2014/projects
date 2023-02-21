@@ -1079,6 +1079,9 @@ section.partners {
   background-color: var(--white-color);
   color: var(--main-color);
 }
+.faq-wrapp {
+  grid-template-columns: repeat(2, 1fr);
+}
 .faq-item {
   padding: 25px;
   border-bottom: 1px solid #C5C5C5;
