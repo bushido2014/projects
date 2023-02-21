@@ -1070,4 +1070,7 @@ section.partners {
   border-bottom: var(--px-solid);
   padding: 15px;
 }
+.faq {
+  background-color: var(--white-color);
+}
 /* End Pricing Page */
