@@ -436,6 +436,9 @@ section {
   font-weight: 500;
   margin-bottom: 10px;
 }
+.partners {
+  background-color: var(--white-color);
+}
 .partners .section-title {
   text-align: center;
   width: 100%;
