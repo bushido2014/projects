@@ -1014,4 +1014,5 @@ section.partners {
   width: 100%;
   background-size: cover;
   padding: 90px 25px;
+  color:var(--main-color)
 }
