@@ -4,6 +4,7 @@
   --white-color: #fff;
   --blue-color: #3898ec;
   --secondary-color: #161d27;
+  --dark-color:#2e3947;
   --gray-color: #909090;
   --px-solid: 1px solid #4e555f;
 }
@@ -145,7 +146,7 @@ figure {
 }
 
 .button-dark:hover {
-  background-color: #2e3947;
+  background-color: var(--dark-color);
 }
 .button-dark:focus {
   border-color: var(--accent-color);
@@ -539,7 +540,7 @@ section {
   border-bottom-left-radius: 1px;
 }
 .client-review__item__content {
-  background: #2e3947;
+  background: var(--dark-color);
   border-radius: 1px 1px 1px 40px;
   padding: 25px;
 }
@@ -852,7 +853,7 @@ textarea {
 
 .intro-img-item {
   display: inline-block;
-  border: 2px solid #2e3947;
+  border: 2px solid var(--dark-color);
   position: relative;
 }
 
@@ -933,7 +934,7 @@ textarea {
 }
 .offering-item {
   padding: 40px;
-  background-color: #2e3947;
+  background-color: var(--dark-color);
   margin-bottom: 20px;
 }
 .offering-item__icon-value {
@@ -1076,6 +1077,14 @@ section.partners {
 /* FAQ Page */
 .faq {
   background-color: var(--white-color);
+  color: var(--main-color);
+}
+.faq-item {
+  padding: 25px;
+  border-bottom: 1px solid #C5C5C5;
+}
+.faq-text {
+  color: var(--gray-color);
 }
 
 /* End FAQ Page */
