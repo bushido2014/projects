@@ -174,6 +174,14 @@ section {
   height: 100%;
   background-position: top center;
 }
+.header {
+  background-image: url("https://i.postimg.cc/zGmnFWSP/practice.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: top center;
+}
 .header__topline {
   justify-content: space-between;
   padding: 10px 0 15px 0;
@@ -947,14 +955,7 @@ section.partners {
 /* End About Page*/
 
 /* Practice Areas Page */
-.practice-areas-page .header {
-  background-image: url("https://i.postimg.cc/zGmnFWSP/practice.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-  background-position: top center;
-}
+
 .header__page-title {
   padding: 80px 0;
   text-align: center;
@@ -1014,5 +1015,5 @@ section.partners {
   width: 100%;
   background-size: cover;
   padding: 90px 25px;
-  color:var(--main-color)
+  color:var(--main-color);
 }
