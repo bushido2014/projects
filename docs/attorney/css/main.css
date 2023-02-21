@@ -1047,7 +1047,7 @@ section.partners {
    color:var(--accent-color);
 }
 .pricing__amout-wrapp {
-  padding: 20px;
+  padding: 25px;
   
 }
 .pricing-price {
@@ -1061,7 +1061,7 @@ section.partners {
   background-color: var(--main-color);
 }
 .pricing__info-wrapp {
-  padding: 20px;
+  padding: 25px;
 }
 .pricing__info-wrapp .pricing__info-list:nth-child(1) {
   border-top: var(--px-solid);
