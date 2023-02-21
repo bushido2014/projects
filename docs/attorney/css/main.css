@@ -1013,7 +1013,7 @@ section.partners {
   background-position: center;
   width: 100%;
   background-size: cover;
-  padding: 90px 0;
+  padding: 45px 0;
   color:var(--main-color);
 }
 .free-wrapp__icon {
@@ -1070,7 +1070,12 @@ section.partners {
   border-bottom: var(--px-solid);
   padding: 15px;
 }
+
+/* End Pricing Page */
+
+/* FAQ Page */
 .faq {
   background-color: var(--white-color);
 }
-/* End Pricing Page */
+
+/* End FAQ Page */
