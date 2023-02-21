@@ -964,6 +964,7 @@ section.partners {
 }
 .cases__article {
   position: relative;
+  transition: all .25s ease;
 }
 .cases__image {
   position: relative;
@@ -979,6 +980,7 @@ section.partners {
   top: auto;
   bottom: 40%;
   transition: all .25s ease;
+  font-weight: 500;
 }
 .cases__info {
   padding: 25px;
@@ -989,5 +991,10 @@ section.partners {
 .cases__link {
   color:var(--accent-color);
   border-bottom: 1px solid var(--accent-color);
+  display: inline-block;
+}
+.cases__article:hover .cases__amount {
+  background-color: var(--accent-color);
+  color: var(--main-color);
 }
 /* End Cases Page */
