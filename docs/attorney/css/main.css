@@ -992,6 +992,9 @@ section.partners {
 .cases__date {
   color:var(--accent-color)
 }
+.cases__title {
+  margin-top: 0.3rem;
+}
 .cases__link {
   color:var(--accent-color);
   border-bottom: 1px solid var(--accent-color);
