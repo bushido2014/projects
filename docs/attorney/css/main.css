@@ -977,7 +977,8 @@ section.partners {
   left: auto;
   right: 35%;
   top: auto;
-  bottom: auto;
+  bottom: 40%;
+  transition: all .25s ease;
 }
 .cases__info {
   padding: 25px;
