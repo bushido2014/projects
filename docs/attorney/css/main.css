@@ -299,9 +299,7 @@ section {
   width: 60%;
   padding-left: 15px;
 }
-.cases {
-  padding-top: 20px;
-}
+
 .succes {
   background-color: #3a4553;
   padding: 8px 15px;
@@ -1015,8 +1013,13 @@ section.partners {
   background-position: center;
   width: 100%;
   background-size: cover;
-  padding: 90px 15px;
+  padding: 90px 0;
   color:var(--main-color);
 }
-
+.free__content {
+  padding: 25px;
+}
+.free__content-text {
+  font-size: 20px;
+}
 /* End Pricing Page */
