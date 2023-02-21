@@ -983,4 +983,11 @@ section.partners {
 .cases__info {
   padding: 25px;
 }
+.cases__date {
+  color:var(--accent-color)
+}
+.cases__link {
+  color:var(--accent-color);
+  border-bottom: 1px solid var(--accent-color);
+}
 /* End Cases Page */
