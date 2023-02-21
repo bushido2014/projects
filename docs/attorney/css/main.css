@@ -965,6 +965,7 @@ section.partners {
 .cases__article {
   position: relative;
   transition: all .25s ease;
+  background-color: var(--secondary-color);
 }
 .cases__image {
   position: relative;
