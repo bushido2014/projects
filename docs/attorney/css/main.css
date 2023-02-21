@@ -1089,5 +1089,19 @@ section.partners {
 .faq-text {
   color: var(--gray-color);
 }
-
+.free-consultation{
+  background-color: var(--white-color);
+  color: var(--main-color);
+  text-align: center;
+}
+.free-consultation-wrapp {
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+.free-consultation__content {
+  font-size: 20px;
+  color: var(--gray-color);
+  margin-bottom: 25px;
+}
 /* End FAQ Page */
