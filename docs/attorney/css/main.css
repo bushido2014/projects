@@ -438,6 +438,7 @@ section {
 }
 .partners {
   background-color: var(--white-color);
+  color: var(--main-color);
 }
 .partners .section-title {
   text-align: center;
