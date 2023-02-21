@@ -1006,3 +1006,12 @@ section.partners {
   color: var(--main-color);
 }
 /* End Cases Page */
+
+.free {
+  background: url('https://i.postimg.cc/k56g5Ccb/free-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  padding: 90px 25px;
+}
