@@ -1008,12 +1008,15 @@ section.partners {
 }
 /* End Cases Page */
 
+/* Pricing Page */
 .free-wrapp {
   background: url('https://i.postimg.cc/k56g5Ccb/free-bg.png');
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
   background-size: cover;
-  padding: 90px 25px;
+  padding: 90px 15px;
   color:var(--main-color);
 }
+
+/* End Pricing Page */
