@@ -1016,9 +1016,13 @@ section.partners {
   padding: 90px 0;
   color:var(--main-color);
 }
+.free-wrapp__icon {
+  padding: 25px;
+}
 .free__content {
   padding: 25px;
 }
+
 .free__content-text {
   font-size: 20px;
 }
