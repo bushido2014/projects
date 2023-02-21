@@ -1052,6 +1052,8 @@ section.partners {
 }
 .pricing-price {
   color:var(--accent-color);
+  font-weight: 700;
+  font-size: 3rem;
 }
 .pricing-mount {
   display: inline-block;
@@ -1059,9 +1061,11 @@ section.partners {
   background-color: var(--main-color);
 }
 .pricing__info-wrapp {
+  padding: 20px;
 
 }
 .pricing__info-list {
-
+  border-bottom: var(--px-solid);
+  padding: 15px;
 }
 /* End Pricing Page */
