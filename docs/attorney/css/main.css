@@ -963,11 +963,23 @@ section.partners {
   grid-template-columns: repeat(2, 1fr);
 }
 .cases__article {
+  position: relative;
 }
 .cases__image {
+  position: relative;
 }
 .cases__amount {
+  display: block;
+  padding: 20px 60px;
+  font-size: 18px;
+  background-color: var(--main-color);
+  position: absolute;
+  left: auto;
+  right: 35%;
+  top: auto;
+  bottom: auto;
 }
 .cases__info {
+  padding: 25px;
 }
 /* End Cases Page */
