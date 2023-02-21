@@ -1029,4 +1029,9 @@ section.partners {
 .pricing-wrapp {
   grid-template-columns: repeat(3, 1fr);
 }
+.pricing-item {
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
 /* End Pricing Page */
