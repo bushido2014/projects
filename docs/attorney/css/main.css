@@ -1105,3 +1105,21 @@ section.partners {
   margin-bottom: 25px;
 }
 /* End FAQ Page */
+
+/* Contact Page */
+.contact-info__wrapp {
+  grid-template-columns: repeat(3, 1fr);
+}
+.contact-info__item {
+  padding: 25px;
+}
+.contact-info__wrapp .contact-info__item:nth-child(2) {
+  border-right: var(--px-solid);
+  border-left: var(--px-solid);
+}
+.contact-info__title {
+  color: var(--accent-color);
+  margin-top: 0.6rem;
+
+}
+/* End Contact Page */
