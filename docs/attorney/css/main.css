@@ -1127,7 +1127,7 @@ section.partners {
 }
 .contact-form-wrapp {
   padding: 30px;
-  background-color: var(--main-color);
+  background-color: var(--secondary-color);
 }
 .contact-form-wrapp form .flex {
   justify-content: space-between;
