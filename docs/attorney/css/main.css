@@ -1135,3 +1135,29 @@ section.partners {
 }
 
 /* End Contact Page */
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1072px) {
+  .navigation a {
+    font-size: 18px;
+    
+}
+.header__phone, .header__email {
+  padding: 5px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {}
+
+  
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {}
+    
+/* Small Devices, Tablets */
+@media only screen and (max-width : 600px) {
+  
+
+}
