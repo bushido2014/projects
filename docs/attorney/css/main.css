@@ -1148,7 +1148,12 @@ section.partners {
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {}
+@media only screen and (max-width : 992px) {
+  .header-content__text h1 {
+    
+    font-size: 3.5rem;
+}
+}
 
   
 
