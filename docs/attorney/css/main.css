@@ -1113,6 +1113,9 @@ section.partners {
 .contact-info__item {
   padding: 25px;
 }
+.contact-info__item a{
+  display: block;
+}
 .contact-info__wrapp .contact-info__item:nth-child(2) {
   border-right: var(--px-solid);
   border-left: var(--px-solid);
@@ -1121,5 +1124,9 @@ section.partners {
   color: var(--accent-color);
   margin-top: 0.6rem;
 
+}
+.contact-form-wrapp {
+  padding: 30px;
+  background-color: var(--main-color);
 }
 /* End Contact Page */
