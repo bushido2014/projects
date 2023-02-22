@@ -1129,4 +1129,7 @@ section.partners {
   padding: 30px;
   background-color: var(--main-color);
 }
+.contact-form-wrapp form .flex {
+  justify-content: space-between;
+}
 /* End Contact Page */
