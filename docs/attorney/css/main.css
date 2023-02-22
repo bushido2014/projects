@@ -1126,10 +1126,12 @@ section.partners {
 
 }
 .contact-form-wrapp {
-  padding: 30px;
+  padding: 30px 45px;
   background-color: var(--secondary-color);
 }
+
 .contact-form-wrapp form .flex {
   justify-content: space-between;
 }
+
 /* End Contact Page */
