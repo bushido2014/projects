@@ -1157,10 +1157,15 @@ section.partners {
   grid-template-columns: repeat(1, 1fr);
   padding-bottom: 0;
 }
+  .header-content__img {
+  display: flex;
+  justify-content: center;
+}
 .law {
  position: relative;
  bottom: initial;
 }
+  
 }
 
   
