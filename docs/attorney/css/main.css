@@ -1153,6 +1153,14 @@ section.partners {
     
     font-size: 3.5rem;
 }
+.header-content {
+  grid-template-columns: repeat(1, 1fr);
+  padding-bottom: 0;
+}
+.law {
+ position: relative;
+ bottom: initial;
+}
 }
 
   
