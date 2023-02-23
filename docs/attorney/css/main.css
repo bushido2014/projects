@@ -1227,7 +1227,13 @@ section.partners {
 .choise-item {
   width: 50%;
 }
+.practis-heading__item:nth-child(1){
+  padding-right: initial;
+}
+  .practis-heading__item {
+    width: 50%;
   
+  }
 }
 
   
@@ -1235,10 +1241,10 @@ section.partners {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-  .choise-wrapp {
+  .choise-wrapp,.practis-heading {
     flex-wrap: wrap;
   }
-  .choise-item {
+  .choise-item,.practis-heading__item {
     width: 100%;
   }
 }
