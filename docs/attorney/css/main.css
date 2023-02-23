@@ -1195,6 +1195,7 @@ section.partners {
     background: #374256;
     transition: all 0.3s ease;
     z-index: 1;
+    align-items: initial;
   }
   nav .site-nav-open li a{
     display: block;
