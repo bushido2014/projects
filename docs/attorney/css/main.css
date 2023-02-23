@@ -1218,7 +1218,7 @@ section.partners {
     font-size: 3.5rem;
 }
 
-.header-content {
+.header-content,.consultation-wrapp {
   grid-template-columns: repeat(1, 1fr);
 }
   .header-content__img {
@@ -1232,12 +1232,23 @@ section.partners {
 .choise-item,.practis-heading__item {
     width: 50%!important;
   }
-.practis-wrapper,.partners-wrapper {
+.practis-wrapper,.partners-wrapper,.client-review-wrapp,.team-wrap,.featured-group  {
   grid-template-columns: repeat(2, 1fr);
 }
 .help-wrapper {
   grid-template-columns: repeat(1, 1fr);
 }
+.history__wrapp {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.appointment-form form .flex {
+  flex-wrap: wrap;
+}
+.form-input-wrapp {
+  width: 100%;
+}
+
 
 }
 
@@ -1252,7 +1263,7 @@ section.partners {
   .choise-item,.practis-heading__item {
     width: 100%!important;
   }
-  .practis-wrapper {
+  .practis-wrapper,.client-review-wrapp,.team-wrap,.featured-group  {
     grid-template-columns: repeat(1, 1fr);
   }
 }
