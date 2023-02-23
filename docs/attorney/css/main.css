@@ -1201,7 +1201,8 @@ section.partners {
   }
   .mb-overlay {
     display: block;
-    margin-top: 5px;
+    margin-top: 4px;
+    z-index: 1;
   }
 .header__contact {
   flex-direction: column;
@@ -1224,16 +1225,20 @@ section.partners {
   display: flex;
   justify-content: center;
 }
-.choise-item {
-  width: 50%;
-}
+
 .practis-heading__item:nth-child(1){
   padding-right: initial;
 }
-  .practis-heading__item {
-    width: 50%;
-  
+.choise-item,.practis-heading__item {
+    width: 50%!important;
   }
+.practis-wrapper,.partners-wrapper {
+  grid-template-columns: repeat(2, 1fr);
+}
+.help-wrapper {
+  grid-template-columns: repeat(1, 1fr);
+}
+
 }
 
   
@@ -1245,12 +1250,17 @@ section.partners {
     flex-wrap: wrap;
   }
   .choise-item,.practis-heading__item {
-    width: 100%;
+    width: 100%!important;
+  }
+  .practis-wrapper {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
     
 /* Small Devices, Tablets */
 @media only screen and (max-width : 600px) {
-  
+  .partners-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
 }
