@@ -1,7 +1,6 @@
-const hamburger = document.querySelector('.hamburger');
-  const navUl = document.querySelector('.navigation ul');
-
-  hamburger.addEventListener('click', function() {
-    hamburger.classList.toggle('is-active');
-    navUl.classList.toggle('site-nav-open');
-  });
+const navMobile = document.querySelector(".hamburger");
+const navbar = document.querySelector(".navigation");
+navMobile.addEventListener("click", () => {
+  navMobile.classList.toggle("is-active");
+  navbar.classList.toggle("is-overlay");
+});
