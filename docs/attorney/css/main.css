@@ -208,7 +208,18 @@ section {
   padding: 8px 12px;
   line-height: 20px;
 }
-
+.nav-mobile {
+  cursor: pointer;
+  display: none;
+}
+.bar {
+  display: block;
+  width: 36px;
+  height: 4px;
+  margin: 6px auto;
+  background-color: var(--white-color);
+  transition: 0.2s;
+}
 .nav-mobile.mb-active .bar:nth-child(2) {
   opacity: 0;
 }
