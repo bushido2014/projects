@@ -1182,7 +1182,16 @@ section.partners {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-  
+  .nav-mobile {
+    display: block;
+  }
+  .navigation {
+    display: none;
+  }
+  .mb-overlay {
+    display: block;
+    margin-top: 15px;
+  }
 
 .header__contact {
   display: none;
