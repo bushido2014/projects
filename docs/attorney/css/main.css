@@ -194,6 +194,7 @@ section {
   border-bottom: var(--px-solid);
   border-top: var(--px-solid);
   margin-bottom: 40px;
+  position: relative;
 }
 .navigation {
   position: relative;
@@ -1202,7 +1203,9 @@ section.partners {
   .hamburger {
     display: block;
   }
-
+  .navigation {
+    display: none;
+  }
 
 .header__contact {
   display: none;
@@ -1218,12 +1221,7 @@ section.partners {
   display: flex;
   justify-content: center;
 }
-/* .law {
- position: relative;
- bottom: initial;
- height: auto;
- max-width: 600px;
-} */
+
   
 }
 
