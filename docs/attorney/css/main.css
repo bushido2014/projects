@@ -267,6 +267,10 @@ transform: translateY(10px) rotate(45deg);
 .hamburger.is-active .line:nth-child(3){
 transform: translateY(-10px) rotate(-45deg);
 }
+.site-nav-open {
+  display: flex;
+  position: relative;
+}
 .site-nav-open ul{
 	position: absolute;
 	top: 90%;
