@@ -272,6 +272,7 @@ transform: translateY(-10px) rotate(-45deg);
 	top: 90%;
 	left: 0;
 	right: 0;
+  display: flex;
 	flex-direction: column;
 	width: 100%;
 	color: #fff;
