@@ -1207,6 +1207,9 @@ section.partners {
   .hamburger {
     display: block;
   }
+  .navigation ul {
+    display: none;
+  }
 .header__contact {
   display: none;
 }
