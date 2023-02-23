@@ -195,10 +195,12 @@ section {
   border-top: var(--px-solid);
   margin-bottom: 40px;
 }
+.navigation {
+  position: relative;
+}
 .navigation ul {
   display: flex;
   align-items: center;
-  position: relative;
 }
 .navigation a {
   font-size: 20px;
