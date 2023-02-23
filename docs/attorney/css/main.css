@@ -208,6 +208,39 @@ section {
   padding: 8px 12px;
   line-height: 20px;
 }
+
+.nav-mobile.mb-active .bar:nth-child(2) {
+  opacity: 0;
+}
+.nav-mobile.mb-active .bar:nth-child(1) {
+  transform: translateY(11px) rotate(45deg);
+}
+.nav-mobile.mb-active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.mb-overlay {
+  position: absolute;
+  overflow: hidden;
+  display: none;
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.navigation.mb-overlay ul {
+  background-color: var(--tint-blue);
+  flex-direction: column;
+  transform: translateY(0px) translateX(0px);
+  transition: transform 400ms ease 0s;
+}
+.navigation.mb-overlay ul li {
+  width: 100%;
+  padding: 10px;
+}
+
 .header__phone,
 .header__email {
   padding: 5px 12px;
