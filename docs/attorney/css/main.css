@@ -242,7 +242,7 @@ section {
 }
 
 .navigation.mb-overlay ul {
-  background-color: var(--tint-blue);
+  background-color: var(--secondary-color);
   flex-direction: column;
   transform: translateY(0px) translateX(0px);
   transition: transform 400ms ease 0s;
