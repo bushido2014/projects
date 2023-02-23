@@ -1246,7 +1246,10 @@ section.partners {
   width: 100%;
 }
 
-
+.footer-widget-wrapp {
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+}
 }
 
   
@@ -1276,6 +1279,16 @@ section.partners {
   }
   .team-item {
     text-align: center;
+  }
+  .choise-item img {
+    margin: 15px auto;
+  }
+  .footer-widget-wrapp {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-bottom {
+   justify-content: center;
+   flex-direction: column;
   }
 }
     
