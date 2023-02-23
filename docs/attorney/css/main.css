@@ -198,6 +198,7 @@ section {
 .navigation ul {
   display: flex;
   align-items: center;
+  position: relative;
 }
 .navigation a {
   font-size: 20px;
