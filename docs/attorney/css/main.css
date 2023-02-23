@@ -1203,15 +1203,17 @@ section.partners {
     display: block;
     margin-top: 5px;
   }
-
+.header__contact {
+  flex-direction: column;
+  align-items: flex-start;
+}
 .header__phone, .header__email {
   padding: 5px;
 }
 .header__icon, .header__text{
     display: none;
   }
-  
-  .header-content__text h1 {
+.header-content__text h1 {
     font-size: 3.5rem;
 }
 
@@ -1222,7 +1224,9 @@ section.partners {
   display: flex;
   justify-content: center;
 }
-
+.choise-item {
+  width: 50%;
+}
   
 }
 
@@ -1230,7 +1234,14 @@ section.partners {
 
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {}
+@media only screen and (max-width : 768px) {
+  .choise-wrapp {
+    flex-wrap: wrap;
+  }
+  .choise-item {
+    width: 100%;
+  }
+}
     
 /* Small Devices, Tablets */
 @media only screen and (max-width : 600px) {
