@@ -266,8 +266,30 @@ transform: translateY(10px) rotate(45deg);
 .hamburger.is-active .line:nth-child(3){
 transform: translateY(-10px) rotate(-45deg);
 }
+.site-nav-open ul{
+	position: absolute;
+	top: 90%;
+	left: 0;
+	right: 0;
+	flex-direction: column;
+	width: 100%;
+	color: #fff;
+	background: #374256;
+	transition: all 0.3s ease;
+	z-index: 1;
+}
+.site-nav-open li a{
+	display: block;
+	cursor: pointer;
+	transition: all .3s ease;
+	padding: 10px;
+	text-decoration: none;
+}
 
-
+.site-nav-open li a:hover {
+ 	background-color: #4b4f56;
+ 	color: #f6f6f6;
+ }
 .header-content {
   grid-template-columns: repeat(2, 1fr);
   padding-top: 90px;
@@ -1180,11 +1202,6 @@ section.partners {
   .hamburger {
     display: block;
   }
-  .navigation ul {
-    display: none;
-  }
- 
-
 
 
 .header__contact {
