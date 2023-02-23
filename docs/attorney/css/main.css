@@ -1201,12 +1201,16 @@ section.partners {
   }
   .mb-overlay {
     display: block;
-    margin-top: 15px;
+    margin-top: 5px;
   }
 
-.header__contact {
-  display: none;
+.header__phone, .header__email {
+  padding: 5px;
 }
+.header__icon, .header__text{
+    display: none;
+  }
+  
   .header-content__text h1 {
     font-size: 3.5rem;
 }
