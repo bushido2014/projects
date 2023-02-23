@@ -244,7 +244,7 @@ section {
 .header-content__img {
   position: relative;
 }
-.law {
+/* .law {
   background: url('https://i.postimg.cc/7YhYzqXh/law-men.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -252,7 +252,7 @@ section {
   height: 500px;
   position: absolute;
   bottom: -50px;
-}
+} */
 .header-content__img img {
   position: relative;
 }
@@ -1161,12 +1161,12 @@ section.partners {
   display: flex;
   justify-content: center;
 }
-.law {
+/* .law {
  position: relative;
  bottom: initial;
  height: auto;
  max-width: 600px;
-}
+} */
   
 }
 
