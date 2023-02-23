@@ -1235,10 +1235,7 @@ section.partners {
 .practis-wrapper,.partners-wrapper,.client-review-wrapp,.team-wrap,.featured-group  {
   grid-template-columns: repeat(2, 1fr);
 }
-.help-wrapper {
-  grid-template-columns: repeat(1, 1fr);
-}
-.history__wrapp {
+.help-wrapper,.history__wrapp, .featured-wrapp-single{
   grid-template-columns: repeat(1, 1fr);
 }
 
@@ -1257,14 +1254,28 @@ section.partners {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+  .sep {
+    margin: 10px auto;
+  }
   .choise-wrapp,.practis-heading {
     flex-wrap: wrap;
+
   }
+  .choise-item .heading {
+    width: 100%;
+}
+.cases {
+  justify-content: center;
+}
   .choise-item,.practis-heading__item {
     width: 100%!important;
+    text-align: center;
   }
   .practis-wrapper,.client-review-wrapp,.team-wrap,.featured-group  {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .team-item {
+    text-align: center;
   }
 }
     
