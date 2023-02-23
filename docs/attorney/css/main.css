@@ -1164,6 +1164,8 @@ section.partners {
 .law {
  position: relative;
  bottom: initial;
+ height: auto;
+ max-width: 600px;
 }
   
 }
