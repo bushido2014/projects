@@ -272,8 +272,8 @@ nav .site-nav-open {
 	top: 0;
 	left: 0;
 	right: 0;
-	display: flex;
-	flex-direction: column;
+	display: flex !important;
+	flex-direction: column !important;
 	width: 100%;
 	color: #fff;
 	background: #374256;
