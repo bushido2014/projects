@@ -1196,6 +1196,8 @@ section.partners {
   
   .nav-mobile {
     display: block;
+    padding: 12px;
+    background-color: var(--main-color);
   }
   .navigation {
     display: none;
@@ -1233,15 +1235,20 @@ section.partners {
 .choise-item,.practis-heading__item {
     width: 50%!important;
   }
-.practis-wrapper,.partners-wrapper,.client-review-wrapp,.team-wrap,.featured-group,.story-img   {
+.practis-wrapper,.partners-wrapper,.client-review-wrapp,
+.team-wrap,.featured-group,
+.story-img,.pricing-wrapp,.contact-info__wrapp   {
   grid-template-columns: repeat(2, 1fr);
 }
 .help-wrapper,.history__wrapp, 
 .featured-wrapp-single,.intro-wrapper,
-.specialised-wrapp,.offering-wrapp {
+.specialised-wrapp,.offering-wrapp,
+.cases-wrapp {
   grid-template-columns: repeat(1, 1fr);
 }
-
+..contact-info__wrapp .contact-info__item:nth-child(2) {
+  border-right: none;
+}
 .appointment-form form .flex {
   flex-wrap: wrap;
 }
@@ -1282,7 +1289,8 @@ section.partners {
     width: 100%!important;
     text-align: center;
   }
-  .practis-wrapper,.client-review-wrapp,.team-wrap,.featured-group,.story-img   {
+  .practis-wrapper,.client-review-wrapp,.team-wrap,
+  .featured-group,.story-img,.pricing-wrapp   {
     grid-template-columns: repeat(1, 1fr);
   }
   .story-img img{
@@ -1300,6 +1308,9 @@ section.partners {
   .footer-bottom {
    justify-content: center;
    flex-direction: column;
+  }
+  .contact-info__item:nth-child(2) {
+    border-left: none;
   }
 }
     
