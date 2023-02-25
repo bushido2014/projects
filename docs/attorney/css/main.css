@@ -251,7 +251,18 @@ section {
   width: 100%;
   padding: 10px;
 }
-
+.header__logo a{
+  display: flex;
+  align-items: center;
+}
+.header__logo a span {
+  font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 50px;
+text-transform: capitalize;
+}
 .header__phone,
 .header__email {
   padding: 5px 12px;
