@@ -1326,6 +1326,11 @@ section.partners {
   .intro-img-item img {
    left: initial;
    top:initial;
+   display: block;
+   margin: 10px auto;
+  }
+  .intro-img-item {
+    border: none;
   }
 }
     
