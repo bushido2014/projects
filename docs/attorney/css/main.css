@@ -1246,7 +1246,7 @@ section.partners {
 .cases-wrapp {
   grid-template-columns: repeat(1, 1fr);
 }
-..contact-info__wrapp .contact-info__item:nth-child(2) {
+.contact-info__wrapp .contact-info__item:nth-child(2) {
   border-right: none;
 }
 .appointment-form form .flex {
