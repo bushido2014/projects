@@ -1193,6 +1193,7 @@ section.partners {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+  
   .nav-mobile {
     display: block;
   }
@@ -1245,7 +1246,12 @@ section.partners {
 .form-input-wrapp {
   width: 100%;
 }
-
+.featured-wrapp-single {
+  text-align: center;
+}
+.featured-meta-wrapp {
+  justify-content: center;
+}
 .footer-widget-wrapp {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px;
