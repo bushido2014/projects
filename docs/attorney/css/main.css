@@ -1323,6 +1323,10 @@ section.partners {
   .contact-info__item:nth-child(2) {
     border-left: none;
   }
+  .intro-img-item img {
+   left: initial;
+   top:initial;
+  }
 }
     
 /* Small Devices, Tablets */
