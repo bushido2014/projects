@@ -1330,5 +1330,8 @@ section.partners {
   .partners-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
-
+  .header__topline {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
