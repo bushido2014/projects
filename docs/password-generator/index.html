@@ -2,23 +2,91 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <title>Password Generator App</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+  <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
-          colors: {
-            clifford: '#da373d',
-          }
+            container: {
+        center: true,
+      },
+      fontFamily: {
+        nunito: "'Nunito', serif",
+      },
         }
       }
     }
   </script>
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline **text-clifford**">
-    Hello world!
-  </h1>
+    <header class="bg-gray-700 py-8 text-white">
+        <div class="container px-2 text-center">
+          <h1 class="text-5xl font-bold">Password Generator</h1>
+        </div>
+      </header>
+      <div class="container px-2 py-4">
+        <div class="flex justify-center">
+          <div class="max-w-3xl w-full">
+            <form class="password py-3">
+              <label for="slider-nummer" class="slider-nummer"
+                >Password Length (<span id="pass-length">6</span>)
+  
+                <div class="slide-wrapp mb-3">
+                  <input
+                    type="range"
+                    min="1"
+                    max="50"
+                    value="6"
+                    class="slider-input"
+                    id="slider-nummer"
+                  />
+                </div>
+              </label>
+              <div class="my-6">
+                <div class="check">
+                  <input
+                    id="checkbox1"
+                    type="checkbox"
+                    checked
+                    class="form-checkbox"
+                  />
+                  <label for="checkbox1" class="ml-2">Numbers</label>
+                </div>
+                <div class="check">
+                  <input id="checkbox2" type="checkbox" checked />
+                  <label for="checkbox2" class="ml-2">Lowercase</label>
+                </div>
+                <div class="check">
+                  <input id="checkbox3" type="checkbox" />
+                  <label for="checkbox3" class="ml-2">Uppercase</label>
+                </div>
+                <div class="check">
+                  <input id="checkbox4" type="checkbox" />
+                  <label for="checkbox4" class="ml-2">Symbols</label>
+                </div>
+              </div>
+              <div class="py-4">
+                <button class="btn btn-blue" type="button" id="CreatePass">
+                  Create Password
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <div id="result"></div>
+        </div>
+      </div>
+      <script src="app.js"></script>
 </body>
 </html>
