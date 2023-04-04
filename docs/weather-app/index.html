@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com/?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              nunito: "'Nunito', serif"
+            }
+          }
+        }
+      };
+    </script>
+    <style type="text/tailwindcss">
+      body {
+        @apply font-nunito font-normal antialiased bg-gray-100;
+      }
+
+      .button {
+        @apply px-8 py-4
+        rounded
+        bg-blue-500
+        hover:bg-blue-800
+        text-white
+        font-semibold
+        text-center
+        block
+        w-6/12
+        focus:outline-none
+        focus:ring-2 
+        focus:ring-offset-2
+        focus:ring-offset-white 
+        focus:ring-blue-400
+        transition duration-500;
+      }
+      .icons {
+        @apply p-8 text-white font-semibold rounded w-full bg-gradient-to-r from-blue-700 to-blue-500;
+      }
+      .icons-day {
+        @apply text-center;
+      }
+      .image {
+        @apply text-center;
+      }
+      .icons-img {
+        @apply block mx-auto;
+      }
+    </style>
+  </head>
+  <body onload="DefaultScreen()">
+    <div class="container mx-auto py-5">
+      <div class="max-w-md mx-auto py-8 text-center">
+        <h1 id="Para1" class="uppercase my-5 text-3xl font-semibold">
+          5 Days Weather Forecast
+        </h1>
+        <div id="inputContainer" class="flex items-center py-4">
+          <input type="text" id="cityInput" class="rounded w-full" />
+        </div>
+        <div class="my-3 flex justify-center items-center">
+          <button type="button" class="button" onclick="GetInfo()">
+            Search
+          </button>
+        </div>
+        <div class="py-4 text-center">
+          <div id="cityName" class="font-semibold"></div>
+        </div>
+      </div>
+
+      <div id="weatherContainer">
+        <div
+          id="iconsContainer"
+          class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 py-8"
+        >
+          <div class="icons">
+            <p id="day1" class="icons-day"></p>
+            <div class="image">
+              <img src="dots.png" class="icons-img" id="img1" />
+            </div>
+            <p class="minValues" id="day1Min">Loading...</p>
+            <p class="maxValues" id="day1Max">Loading...</p>
+          </div>
+          <div class="icons">
+            <p id="day2" class="icons-day"></p>
+            <div class="image">
+              <img src="dots.png" class="icons-img" id="img2" />
+            </div>
+            <p class="minValues" id="day2Min">Loading...</p>
+            <p class="maxValues" id="day2Max">Loading...</p>
+          </div>
+          <div class="icons">
+            <p id="day3" class="icons-day"></p>
+            <div class="image">
+              <img src="dots.png" class="icons-img" id="img3" />
+            </div>
+            <p class="minValues" id="day3Min">Loading...</p>
+            <p class="maxValues" id="day3Max">Loading...</p>
+          </div>
+          <div class="icons">
+            <p id="day4" class="icons-day"></p>
+            <div class="image">
+              <img src="dots.png" class="icons-img" id="img4" />
+            </div>
+            <p class="minValues" id="day4Min">Loading...</p>
+            <p class="maxValues" id="day4Max">Loading...</p>
+          </div>
+          <div class="icons">
+            <p id="day5" class="icons-day"></p>
+            <div class="image">
+              <img src="dots.png" class="icons-img" id="img5" />
+            </div>
+            <p class="minValues" id="day5Min">Loading...</p>
+            <p class="maxValues" id="day5Max">Loading...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
