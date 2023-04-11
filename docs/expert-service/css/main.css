@@ -2,6 +2,7 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
+scroll-behavior: smooth;
 
 section {
   padding: 60px 0;
