@@ -72,14 +72,15 @@ section {
     box-shadow: 0 0 10px rgba(0,0,0,.1)
 }
 
-.scroll-top:hover {
-    color: #fff;
-    background: rgba(88,100,255,.8)
-}
+
 
 .to-top.show {
+  display: flex;
   justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+}
+.to-top .bi {
+  fill:rgba(88,100,255,.8);
 }
