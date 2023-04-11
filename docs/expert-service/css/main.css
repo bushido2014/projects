@@ -32,3 +32,36 @@ body {
   .menu__mobile_button span:after {
     bottom: -28px;
   }
+
+
+  .to-top {
+    width: 45px;
+    height: 45px;
+    background: #5864ff;
+    display: none;
+    
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.1);
+    box-shadow: 0 0 10px rgba(0,0,0,.1)
+}
+
+.scroll-top:hover {
+    color: #fff;
+    background: rgba(88,100,255,.8)
+}
+
+.to-top.show {
+  justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
