@@ -1,4 +1,5 @@
-// получаем кнопку "скролл на вверх"
+
+
 var toTopButton = document.querySelector('.to-top');
 
 // добавляем прослушиватель событий для отслеживания прокрутки страницы
@@ -19,3 +20,5 @@ toTopButton.addEventListener('click', function() {
     behavior: 'smooth'
   });
 });
+
+

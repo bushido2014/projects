@@ -1,8 +1,10 @@
 body {
     font-family: 'Manrope', sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 
-scroll-behavior: smooth;
 
 section {
   padding: 60px 0;
