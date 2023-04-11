@@ -2,6 +2,9 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
+section {
+  padding: 60px 0;
+}
 .header .navbar-collapse{
   flex-grow: initial;
 }
