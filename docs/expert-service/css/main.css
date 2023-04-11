@@ -57,10 +57,9 @@ section {
     width: 45px;
     height: 45px;
     display: none;
-    border-radius: 5px;
     position: fixed;
-    bottom: 30px;
-    right: 30px;
+    bottom: 35px;
+    right: 35px;
     z-index: 9;
     cursor: pointer;
     -webkit-transition: all .4s ease-out 0s;
@@ -70,13 +69,10 @@ section {
 
 
 .to-top.show {
-  display: flex;
-  justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+  display: block;
+  
 }
 .to-top .bi {
-  fill:rgba(88,100,255,.8);
-  font-size: 22px;
+  color:rgba(88,100,255,.8);
+  font-size: 28px;
 }
