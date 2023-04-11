@@ -8,23 +8,27 @@ body {
     width: 40px;
     cursor: pointer;
     background-color: transparrent;
-  }
+}
 
 
   .menu__mobile_button span {
-    top: 50%;
-    transform: translateY(-50%);
+    position: relative;
 } 
-  .menu__mobile_button span, .menu__mobile_button:before, .menu__mobile_button:after {
+.menu__mobile_button span,
+  .menu__mobile_button span:before, .menu__mobile_button span:after {
     display: block;
-    position: absolute;
+    width: 45px;
     height: 6px;
-    width: 100%;
-    background-color: #1e272e;
-    border-radius: 6px;
-    opacity: 1;  
+    background-color: #243040;
+    border-radius: 2px;
   }
-  .menu__mobile_button:before, .menu__mobile_button:after {
+  .menu__mobile_button span:before, .menu__mobile_button span:after {
     content: "";
-    transition: top 0.35s cubic-bezier(0.23, 1, 0.32, 1), transform 0.35s cubic-bezier(0.23, 1, 0.32, 1);
+    position: absolute;
+  }
+  .menu__mobile_button span:before {
+    bottom: -14px;
+  }
+  .menu__mobile_button span:after {
+    bottom: -28px;
   }
