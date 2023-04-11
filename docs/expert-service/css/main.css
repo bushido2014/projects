@@ -70,9 +70,14 @@ section {
 
 .to-top.show {
   display: block;
+  text-align: center;
+  border-radius: 5px;
+  background: #FF6433;
   
 }
 .to-top .bi {
-  color:rgba(88,100,255,.8);
-  font-size: 28px;
+  color:#fff;
+  font-size: 32px;
+  display: block;
+  margin: auto;
 }
