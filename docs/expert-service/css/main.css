@@ -6,6 +6,11 @@ body {
 section {
   padding: 60px 0;
 }
+
+img {
+  max-width: 100%;
+}
+
 .header .navbar-collapse{
   flex-grow: initial;
 }
