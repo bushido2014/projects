@@ -192,9 +192,9 @@ border-radius: 59px;
   color: #fff!important;
 }
 .btn-service:hover {
-  background-color: #ffc107;
+  background-color: #da562d;
 }
 .btn-service:focus {
-  background-color: #ffca2c;
+  background-color: #da562d;
   border-color: #ffc720;
   box-shadow: 0 0 0 0.25rem rgba(217,164,6,.5);}
