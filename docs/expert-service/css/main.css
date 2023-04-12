@@ -70,8 +70,11 @@ p {
     margin: 0 10px;
     width: 35px;
     height: 35px;
-    
 }
+.header-info {
+  font-weight: 600;
+}
+
   .to-top {
     width: 45px;
     height: 45px;
@@ -160,6 +163,7 @@ border-radius: 59px;
 .vehicle-rating__star .bi {
   color: #FFB648;
 }
+
 .btn-service {
   color: #FFB648;
 }
