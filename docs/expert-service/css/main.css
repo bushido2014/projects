@@ -51,7 +51,15 @@ img {
   .menu__mobile_button span:after {
     bottom: -28px;
   }
-
+.header-info__icon {
+  display: block;
+  padding: 2px;
+  text-align: center;
+  background-color: #5CBA99;
+  color: #fff;
+  border-radius: 50%;
+  margin: 0 10px;
+}
   .to-top {
     width: 45px;
     height: 45px;
@@ -92,7 +100,7 @@ img {
 }
 .vehicle-service,.vehicle-rating {
   position: absolute;
-  width: 220px;
+  width: 235px;
   padding: 15px;
   background: #FFFFFF;
 border: 12px solid rgba(225, 225, 225, 0.43);
@@ -115,6 +123,7 @@ border-radius: 59px;
   border-radius: 50%;
   margin: 0 10px;
   color: #fff;
+  padding: 10px 8px;
 }
 .vehicle-service__time span {
   font-weight: 600;
@@ -126,4 +135,10 @@ border-radius: 59px;
 }
 .vehicle-rating__text span:nth-child(1){
   font-weight: bold;
+}
+.vehicle-rating__star {
+  margin-left: 15px;
+}
+.vehicle-rating__star .bi {
+  color: #FFB648;
 }
