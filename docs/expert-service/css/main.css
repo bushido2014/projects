@@ -24,6 +24,7 @@ a {
   text-decoration: none;
   color: #212529;
 }
+
 p {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -38,11 +39,13 @@ p {
 }
 
 
-  .menu__mobile_button span {
+.menu__mobile_button span {
     position: relative;
 } 
+
 .menu__mobile_button span,
-  .menu__mobile_button span:before, .menu__mobile_button span:after {
+.menu__mobile_button span:before,
+.menu__mobile_button span:after {
     display: block;
     width: 45px;
     height: 6px;
@@ -53,12 +56,15 @@ p {
     content: "";
     position: absolute;
   }
+
   .menu__mobile_button span:before {
     bottom: -14px;
   }
+
   .menu__mobile_button span:after {
     bottom: -28px;
   }
+
 .header-info__icon {
   display: flex;
   flex-direction: column;
@@ -71,6 +77,7 @@ p {
     width: 35px;
     height: 35px;
 }
+
 .header-info {
   font-weight: 600;
 }
@@ -99,21 +106,26 @@ p {
   border-radius: 5px;
   background: #FF6433;
   visibility: visible;
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-    transform: translateY(0%);
-  
+  opacity: 1;
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
 }
+
 .to-top .bi {
   color:#fff;
   font-size: 32px;
   display: block;
   margin: auto;
 }
+
 .vehicle-text {
   padding-top: 35px;
-  padding-left: 20px;
+  padding-right: 25px;
 }
+.vehicle-text h1 {
+  margin-bottom: 25px;
+}
+
 .vehicle-text .bi {
   color: #939191;
   font-size: 25px;
@@ -122,7 +134,9 @@ p {
 .vehicle-img {
   position: relative;
 }
-.vehicle-service,.vehicle-rating {
+
+.vehicle-service,
+.vehicle-rating {
   position: absolute;
   width: 235px;
   padding: 15px;
@@ -141,6 +155,7 @@ border-radius: 59px;
   bottom: 25px;
   right: -15px;
 }
+
 .vehicle-service__time {
   background-color: #5CBA99;
   text-align: center;
@@ -149,24 +164,37 @@ border-radius: 59px;
   color: #fff;
   padding: 10px 8px;
 }
+
 .vehicle-service__time span {
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
 }
+
 .vehicle-rating__text span{
   display: block;
 }
+
 .vehicle-rating__text span:nth-child(1){
   font-weight: bold;
 }
+
 .vehicle-rating__star {
   margin-left: 15px;
 }
+
 .vehicle-rating__star .bi {
-  color: #FFB648;
+  color: #FF6433;
 }
 
 .btn-service {
-  background-color: #FFB648;
+  background-color: #FF6433;
+  color: #fff!important;
 }
+.btn-service:hover {
+  background-color: #ffc107;
+}
+.btn-service:focus {
+  background-color: #ffca2c;
+  border-color: #ffc720;
+  box-shadow: 0 0 0 0.25rem rgba(217,164,6,.5);}
