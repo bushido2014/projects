@@ -98,3 +98,23 @@ img {
   display: block;
   margin: auto;
 }
+.vehicle-img {
+  position: relative;
+}
+.vehicle-service,.vehicle-rating {
+  position: absolute;
+  width: 200px;
+  padding: 15px;
+  background: #FFFFFF;
+border: 12px solid rgba(225, 225, 225, 0.43);
+box-shadow: 0px 28px 118px rgba(109, 108, 115, 0.12);
+border-radius: 59px;
+}
+.vehicle-service {
+  top: 25px;
+  left: -15px;
+}
+.vehicle-rating {
+  bottom: 25px;
+  right: -15px;
+}
