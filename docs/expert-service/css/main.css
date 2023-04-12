@@ -128,7 +128,7 @@ border-radius: 59px;
 
 .vehicle-service {
   top: 25px;
-  left: -15px;
+  left: -30px;
 }
 
 .vehicle-rating {
@@ -158,5 +158,8 @@ border-radius: 59px;
   margin-left: 15px;
 }
 .vehicle-rating__star .bi {
+  color: #FFB648;
+}
+.btn-service {
   color: #FFB648;
 }
