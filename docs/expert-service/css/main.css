@@ -20,6 +20,14 @@ img {
   flex-grow: initial;
 }
 
+a {
+  text-decoration: none;
+  color: #212529;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
 
 .menu__mobile_button {
     position: relative;
@@ -52,13 +60,17 @@ img {
     bottom: -28px;
   }
 .header-info__icon {
-  display: block;
-  padding: 2px;
-  text-align: center;
-  background-color: #5CBA99;
-  color: #fff;
-  border-radius: 50%;
-  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    text-align: center;
+    background-color: #5CBA99;
+    color: #fff;
+    border-radius: 100%;
+    margin: 0 10px;
+    width: 35px;
+    height: 35px;
+    
 }
   .to-top {
     width: 45px;
@@ -95,6 +107,12 @@ img {
   display: block;
   margin: auto;
 }
+
+.vehicle-text .bi {
+  color: #939191;
+  font-size: 25px;
+}
+
 .vehicle-img {
   position: relative;
 }
