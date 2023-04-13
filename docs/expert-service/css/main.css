@@ -11,7 +11,9 @@ h1, h2, h3, h4, h5, h6 {
 section {
   padding: 60px 0;
 }
-
+.section-title {
+  margin: 0 auto;
+}
 img {
   max-width: 100%;
 }
@@ -28,14 +30,21 @@ p {
 }
 
 
+
 .header .navbar-collapse{
   flex-grow: initial;
 }
-.header .nav-link:hover {
+.header .nav-link{
+  color: initial;
+}
+
+.header a:hover {
   color: #FF6433;
 }
 
-
+.header-info__phone {
+  font-weight: 700;
+}
 .menu__mobile_button {
     position: relative;
     height: 26px;
@@ -195,19 +204,24 @@ p {
 .vehicle-rating__star .bi {
   color: #FF6433;
 }
-
+.btn-dark {
+  padding: 0.75rem 1rem;
+}
 .btn-service {
   background-color: #FF6433;
   color: #fff!important;
+  padding: 0.75rem 1rem;
 }
 .btn-service:hover {
   background-color: #da562d;
 }
 .btn-service:focus {
   background-color: #da562d;
-  border-color: #ffc720;
-  box-shadow: 0 0 0 0.25rem rgba(217,164,6,.5);
+  border-color: #ff9b20;
+  box-shadow: 0 0 0 0.25rem rgba(217, 101, 6, 0.5);
 }
+
+
 .quote {
   background-color: #E2E6E9;
 }
@@ -245,10 +259,12 @@ p {
   left: -65px;
   top: -15px;
 }
+
 .offer-link {
   display: block;
   text-align: center;
   transition: all .3s ease;
+  min-height: 190px;
 }
 .offer-link div{
   padding-top: 20px;
@@ -261,13 +277,68 @@ p {
 .offer-link:hover img{
    filter: invert(100%);
 }
-
+.cta {
+  padding: 0;
+}
+.cta .row>* {
+  padding-left: 0;
+  padding-right: 0;
+}
 .cta-img-left {
+  background-image: url('../img/cta-left.png');
+}
+.cta-img-right {
+  background-image: url('../img/cta-right.png');
+}
+
+.cta-img-left,
+.cta-img-right {
   position: relative;
-  background: url('../img/cta-left.png');
-  background-position: center;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 500px;
+  min-height: 460px;
+}
+.cta-info {
+  padding: 8rem;
+  background-color: #FF6433;
+  color:#fff;
+  display: block;
+  min-height: 460px;
+  max-width: 700px;
+  right: -50px;
+  position: absolute;
+}
+.experience-item {
+  text-align: center;
+}
+.experience-heading {
+  color:#661CE7;
+  font-size: 3.2rem;
+  font-weight: 800;
+}
+.experience-text {
+  font-size: 24px;
+}
+.testimonials .section-title {
+  max-width: 40rem;
+}
+.faq {
+  background-color: #E2E6E9;
+}
+
+.faq  .accordion-button:focus {
+  z-index: 3;
+  border-color: #FF6433;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(253, 157, 13, 0.25);
+}
+.faq .accordion-button:not(.collapsed) {
+  color: #FF6433;
+  background: #fff;
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+.faq .accordion-button:not(.collapsed)::after {
+  filter: invert(100%);
 }
