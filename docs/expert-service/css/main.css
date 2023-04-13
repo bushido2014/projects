@@ -224,6 +224,7 @@ border-radius: 59px;
 
 .timeline-item {
   position: relative;
+  padding-left: 15px;
 }
 .timeline-icon {
   width: 65px;
@@ -232,5 +233,6 @@ border-radius: 59px;
   border-radius: 100%;
   display: block;
   position: absolute;
-  left: -30px;
+  left: -65px;
+  top: -15px;
 }
