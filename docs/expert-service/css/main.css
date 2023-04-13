@@ -236,3 +236,16 @@ border-radius: 59px;
   left: -65px;
   top: -15px;
 }
+.offer-link {
+  display: block;
+  text-align: center;
+  transition: all .25s ease;
+}
+.offer-link div{
+  padding-top: 20px;
+}
+
+.offer-link:hover {
+  background-color: #FF6433;
+  color: #fff;
+}
