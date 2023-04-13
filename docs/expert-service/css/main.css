@@ -202,3 +202,12 @@ border-radius: 59px;
 .quote {
   background-color: #E2E6E9;
 }
+.quote-content__list {
+  padding-right: 20px;
+}
+.quote-content__list-title {
+  margin-bottom: 15px;
+}
+.quote-content__list-title h4{
+  margin-left: 15px;
+}
