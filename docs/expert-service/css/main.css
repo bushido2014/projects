@@ -119,8 +119,8 @@ p {
 }
 
 .vehicle-text {
-  padding-top: 35px;
-  padding-right: 25px;
+  padding-top: 50px;
+  padding-right: 30px;
 }
 .vehicle-text h1 {
   margin-bottom: 25px;
@@ -197,4 +197,8 @@ border-radius: 59px;
 .btn-service:focus {
   background-color: #da562d;
   border-color: #ffc720;
-  box-shadow: 0 0 0 0.25rem rgba(217,164,6,.5);}
+  box-shadow: 0 0 0 0.25rem rgba(217,164,6,.5);
+}
+.quote {
+  background-color: #E2E6E9;
+}
