@@ -218,7 +218,7 @@ border-radius: 59px;
 
 .timeline {
   list-style: none;
-  border-left: 1px dashed #FF6433;
+  border-left: 3px solid #FF6433;
   position: relative;
 }
 
