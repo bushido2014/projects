@@ -203,11 +203,15 @@ border-radius: 59px;
   background-color: #E2E6E9;
 }
 .quote-content__list {
-  padding-right: 20px;
+  padding-right: 25px;
 }
 .quote-content__list-title {
   margin-bottom: 15px;
 }
 .quote-content__list-title h4{
   margin-left: 15px;
+}
+.bi-arrow-right {
+  font-size: 26px;
+  margin-left: 10px;
 }
