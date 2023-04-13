@@ -146,10 +146,13 @@ p {
   position: absolute;
   width: 235px;
   padding: 15px;
-  background: #FFFFFF;
-border: 12px solid rgba(225, 225, 225, 0.43);
-box-shadow: 0px 28px 118px rgba(109, 108, 115, 0.12);
-border-radius: 59px;
+  border-style: solid;
+    border-width: 0.6rem;
+    border-color: hsla(0, 0%, 88.2%, 0.35);
+    border-radius: 4rem;
+    background-color: #fff;
+    background-clip: padding-box;
+    -webkit-text-fill-color: inherit;
 }
 
 .vehicle-service {
