@@ -16,9 +16,6 @@ img {
   max-width: 100%;
 }
 
-.header .navbar-collapse{
-  flex-grow: initial;
-}
 
 a {
   text-decoration: none;
@@ -29,6 +26,15 @@ p {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
+
+
+.header .navbar-collapse{
+  flex-grow: initial;
+}
+.header .nav-link:hover {
+  color: #FF6433;
+}
+
 
 .menu__mobile_button {
     position: relative;
@@ -251,4 +257,14 @@ border-radius: 59px;
 }
 .offer-link:hover img{
    filter: invert(100%);
+}
+
+.cta-img-left {
+  position: relative;
+  background: url('img/cta-left.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 500px;
 }
