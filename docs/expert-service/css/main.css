@@ -246,6 +246,9 @@ border-radius: 59px;
 }
 
 .offer-link:hover {
-  background-color: #FF6433;
+  background-color: #FF6433!important;
   color: #fff;
+}
+.offer-link:hover img{
+  fill: #fff;
 }
