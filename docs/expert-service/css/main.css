@@ -239,7 +239,7 @@ border-radius: 59px;
 .offer-link {
   display: block;
   text-align: center;
-  transition: all .25s ease;
+  transition: all .3s ease;
 }
 .offer-link div{
   padding-top: 20px;
@@ -250,5 +250,5 @@ border-radius: 59px;
   color: #fff;
 }
 .offer-link:hover img{
-  fill: #fff;
+   filter: invert(100%);
 }
