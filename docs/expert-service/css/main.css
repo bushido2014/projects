@@ -215,3 +215,22 @@ border-radius: 59px;
   font-size: 26px;
   margin-left: 10px;
 }
+
+.timeline {
+  list-style: none;
+  border-left: 1px dashed #FF6433;
+  position: relative;
+}
+
+.timeline-item {
+  position: relative;
+}
+.timeline-icon {
+  width: 65px;
+  height: 65px;
+  padding: 5px;
+  border-radius: 100%;
+  display: block;
+  position: absolute;
+  left: -30px;
+}
