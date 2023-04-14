@@ -396,5 +396,20 @@ p {
   background-color: #1E1B1B;
   color: #fff;
   padding-top: 30px;
-  
+
 }
+
+.footer-bottom {
+  justify-content: flex-end;
+}
+.footer a {
+  color: #fff;
+ }
+ .footer-contact {
+  font-size: 22px;
+ }
+ .contact-title {
+  opacity: 0.6;
+  font-size: 17px;
+ }
+
