@@ -307,7 +307,7 @@ p {
   display: block;
   min-height: 460px;
   max-width: 700px;
-  right: -50px;
+  right: -80px;
   position: absolute;
   z-index: 9;
 }
@@ -325,6 +325,43 @@ p {
 .testimonials .section-title {
   max-width: 40rem;
 }
+
+.carousel-indicators {
+  bottom: -40px;
+}
+.carousel-indicators .active {
+  opacity: 1;
+  background-color: #ff6433 !important;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #939191;
+  height: 4px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  background-color: #333;
+  bottom: -30px;
+  top: initial;
+}
+.testimonial-img {
+  width: 4rem;
+  height: 4rem;
+}
+.testimonial_client {
+  width: 100%;
+}
+.carousel-control-prev {
+  right: 100px;
+  left: initial;
+}
+.carousel-control-next {
+  right: 40px;
+}
+
+
 .faq {
   background-color: #E2E6E9;
 }
