@@ -398,9 +398,16 @@ p {
   padding-top: 30px;
 
 }
-
-.footer-bottom {
-  justify-content: flex-end;
+.social-links a{
+  margin: 0 10px;
+  transition: all .25s ease;
+}
+.social-links .bi {
+  font-size: 20px;
+  transition: all .25s ease;
+}
+.social-links a:hover .bi {
+  color: #FF6433;
 }
 .footer a {
   color: #fff;
@@ -411,5 +418,9 @@ p {
  .contact-title {
   opacity: 0.6;
   font-size: 17px;
+ }
+ .footer-bottom {
+  padding: 25px 0;
+  background-color: #1E1B1B;
  }
 
