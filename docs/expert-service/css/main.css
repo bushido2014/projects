@@ -365,12 +365,15 @@ p {
 .faq {
   background-color: #E2E6E9;
 }
-
+.faq .accordion-item {
+  padding: 10px;
+  margin-bottom: 12px;
+}
 .faq  .accordion-button:focus {
   z-index: 3;
-  border-color: #FF6433;
+  border-color: initial;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(253, 157, 13, 0.25);
+  box-shadow: initial;
 }
 .faq .accordion-button:not(.collapsed) {
   color: #FF6433;
