@@ -390,6 +390,10 @@ p {
   padding: 10px;
   margin-bottom: 12px;
 }
+.faq .accordion-button {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
 .faq  .accordion-button:focus {
   z-index: 3;
   border-color: initial;
@@ -681,6 +685,14 @@ p {
   opacity: 0.6;
   line-height: 1.8;
 }
+.service-single__post article h2{
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+}
+.service-single__post article p {
+  padding-bottom: 1rem;
+}
+
 
 
  .footer-bottom {
