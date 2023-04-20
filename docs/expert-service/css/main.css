@@ -1,6 +1,7 @@
 body {
     font-family: 'Manrope', sans-serif;
     font-weight: 600;
+    overflow-x: hidden;
 }
 html {
   scroll-behavior: smooth;
@@ -471,7 +472,7 @@ p {
 }
 .about-customers__img {
   padding: 4rem;
-  min-height: 410px;
+  height: 100%;
   color: #fff;
   transition: all .3s;
 }
@@ -723,7 +724,8 @@ p {
   padding: 20px 0;
 }
 .blog-header {
-  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .blog-reatured__wrapper {
   background: #fff;
