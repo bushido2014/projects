@@ -67,14 +67,16 @@ p {
 .header-info__phone {
   font-weight: 700;
 }
+
 .menu__mobile_button {
     position: relative;
     height: 26px;
     width: 40px;
     cursor: pointer;
-    background-color: transparrent;
 }
-
+.header {
+  padding-bottom: 8px;
+}
 
 .menu__mobile_button span {
     position: relative;
