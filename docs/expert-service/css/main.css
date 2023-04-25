@@ -780,6 +780,19 @@ p {
 .contact-detail {
   padding-bottom: 25px;
 }
+.contact-detail address {
+  margin-bottom: 0;
+}
+
+.offcanvas {
+  background-color: #FF6433;
+  color: #fff;
+}
+.offcanvas 
+.nav-link{
+  color: #fff;
+}
+
 
 
 
