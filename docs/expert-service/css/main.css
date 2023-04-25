@@ -769,6 +769,16 @@ p {
 }
 
 
+.contact-details {
+  padding-top: 8rem;
+  padding-left: 1rem;
+}
+.contact-text {
+  font-size: 24px;
+}
+
+
+
 
 
  .footer-bottom {
