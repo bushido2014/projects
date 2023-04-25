@@ -810,4 +810,10 @@ p {
   .team-item__img img {
     height: 40rem;
   }
+  .vehicle-service {
+    left: 0;
+  }
+  .vehicle-rating {
+    right: 0;
+  }
 }
