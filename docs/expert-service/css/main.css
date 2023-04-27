@@ -821,6 +821,8 @@ p {
     z-index: 100;
     width: 100%;
     background-color: #fff;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .vehicle {
     padding-top: 80px;
@@ -842,7 +844,18 @@ p {
   .cta-info {
     max-width: 100%;
     right: 0;
+    
+  }
+  .cta-img-left, .cta-img-right {
     min-height: 360px;
   }
-  
+  .service-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 576px) {
+  .service-list {
+    grid-template-columns: 1fr;
+  }
 }
