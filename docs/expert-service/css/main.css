@@ -786,6 +786,15 @@ p {
   margin-bottom: 0;
 }
 
+.map {
+  background: url('../img/contact.jpg');
+  width: 100%;
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .offcanvas {
   background-color: #FF6433;
   color: #fff;
