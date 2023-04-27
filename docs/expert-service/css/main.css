@@ -853,9 +853,16 @@ p {
     grid-template-columns: 1fr;
   }
 }
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+  .header {
+    padding-right: 16px;
+  }
+}
 @media only screen and (max-width: 576px) {
   .service-list {
     grid-template-columns: 1fr;
+  }
+  .header {
+    padding-right: 22px;
   }
 }
