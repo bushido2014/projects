@@ -789,7 +789,7 @@ p {
 .map {
   background: url('../img/contact.jpg');
   width: 100%;
-  min-height: 700px;
+  min-height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
