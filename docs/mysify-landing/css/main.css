@@ -54,6 +54,10 @@
     margin-top: 0;
     margin-bottom: 1rem;
   }  
+.flex {
+  display: flex;
+  
+}  
 .header {
   padding: 20px 0;
   height: 100vh;
@@ -61,7 +65,10 @@
   
 }
 .hero__image {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.20) 100%), url("../img/hero.png"), transparent 50% / cover no-repeat;
+    background: url("../img/hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
     width: 100%;
   }
