@@ -1,11 +1,9 @@
 :root {
-    --main-color: #1f2732;
-    --accent-color: #d1b06b;
+    --accent-color: #FC9918;
     --white-color: #fff;
-    --blue-color: #3898ec;
-    --secondary-color: #161d27;
-    --dark-color:#2e3947;
-    --gray-color: #909090;
+    --blue-color: #35589A;
+    --secondary-color: #370665;
+    --orange-color: #F14A16;
     
   }
   body {
@@ -19,7 +17,6 @@
     opacity: 1;
     color: var(--white-color);
     font-family: 'Lato', sans-serif;
-    background: var(--main-color);
   }
   *,
   *::before,
