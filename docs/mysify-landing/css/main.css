@@ -59,9 +59,16 @@
   align-items: center;
 
 }  
+.grid {
+  display: grid;
+}
+
 .header {
   padding: 20px 0;
   height: 100vh;
   background: #370665;
   
+}
+.hero__image img{
+  margin-top: -150px;
 }
