@@ -5,6 +5,7 @@
     --secondary-color: #370665;
     --orange-color: #F14A16;
     --main-color: #333;
+    --dark-color: #070606;
   }
   body {
     margin: 0;
@@ -17,6 +18,7 @@
     opacity: 1;
     color: var(--white-color);
     font-family: 'Lato', sans-serif;
+    background: var(--dark-color);
   }
   *,
   *::before,
@@ -52,7 +54,9 @@
     margin-top: 0;
     margin-bottom: 1rem;
   }  
-
+.header {
+  
+}
   .hero {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.20) 100%), url("./img/hero.png"), lightgray 50% / cover no-repeat;
   }
