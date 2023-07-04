@@ -58,11 +58,10 @@
   padding: 20px 0;
   height: 100vh;
   background: #370665;
-  filter: blur(300px);
+  
 }
-.header > *{
-  filter: blur(0px);
-}
-  .hero {
+.hero__image {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.20) 100%), url("../img/hero.png"), transparent 50% / cover no-repeat;
+    height: 100%;
+    width: 100%;
   }
