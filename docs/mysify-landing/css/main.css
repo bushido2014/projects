@@ -92,8 +92,12 @@
   padding: 20px 0;
   height: 100vh;
   background: #370665;
-  
+  background-image: url(../img/hero-h.png);
+  background-position: bottom right;
+  background-repeat: repeat;
+  background-size: contain;
 }
+
 .hero__image img{
   margin-top: -150px;
 }
