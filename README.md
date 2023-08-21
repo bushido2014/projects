@@ -12,6 +12,8 @@ landing pages, html multipage websites, apps
 
 [weather-app](https://github.com/bushido2014/projects/tree/main/docs/weather-app) -- Tailwind CSS Weather App -- [See Demo](https://bushido2014.github.io/projects/weather-app/)
 
+[wavesurferjs-app](https://github.com/bushido2014/projects/tree/main/docs/wavesurferjs-app) -- Music App with wavesurfer.js -- [See Demo](https://bushido2014.github.io/projects/wavesurferjs-app/)
+
 
 
 
