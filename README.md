@@ -10,6 +10,8 @@ landing pages, html multipage websites, apps
 
 [password-generator](https://github.com/bushido2014/projects/tree/main/docs/password-generator) -- Password Generator App -- [See Demo](https://bushido2014.github.io/projects/password-generator/)
 
+[weather-app](https://github.com/bushido2014/projects/tree/main/docs/weather-app) -- Tailwind CSS Weather App --[See Demo](https://bushido2014.github.io/projects/weather-app/)
+
 
 
 
