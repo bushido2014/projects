@@ -55,6 +55,7 @@
     color: var(--grey-color);
     font-family: var(--font-family-base);
     background-color: var(--white-color);
+    transition: background 0.2s linear;
   }
   
   .container {
