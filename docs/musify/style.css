@@ -1,6 +1,6 @@
 :root {
     --bg-color: #fafafa;
-    --bg-dark-color:#070606;
+    --bg-dark-color:#370665;
     --primary-color: #be123c;
     --primary-color-hover: #b10936;
     --primary-color-focus: #bb2d3b;
@@ -72,16 +72,17 @@
     text-decoration: none;
     vertical-align: middle;
     border: 2px solid var(--primary-color);
-    padding: 0.6rem 1.5rem;
+    color: var(--primary-color);
+    padding: 0.6rem 1.8rem;
     font-size: 1rem;
     border-radius: 0.25rem;
     transition: var(--button-transition);
+    background-color: transparent;
   }
   .button:hover {
     border-color: var(--primary-color-border-hover);
   }
   .button:focus {
-    
     border-color: var(--primary-color-border-focus);
     box-shadow: 0 0 0 0.25rem var(--primary-color-box-shadow);
   }
