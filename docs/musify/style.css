@@ -1,5 +1,6 @@
 :root {
-    --bg-color: #f4f4f4;
+    --bg-color: #fafafa;
+    --bg-dark-color:#070606;
     --primary-color: #be123c;
     --primary-color-hover: #b10936;
     --primary-color-focus: #bb2d3b;
@@ -63,7 +64,6 @@
     margin: 0 auto;
   }
   .button {
-    background-color: var(--primary-color);
     color: var(--white-color);
     cursor: pointer;
     display: inline-block;
@@ -72,18 +72,18 @@
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
-    border: 1px solid transparent;
+    border: 2px solid var(--primary-color);
     padding: 0.6rem 1rem;
     font-size: 1rem;
     border-radius: 0.25rem;
     transition: var(--button-transition);
   }
   .button:hover {
-    background-color: var(--primary-color-hover);
+    
     border-color: var(--primary-color-border-hover);
   }
   .button:focus {
-    background-color: var(--primary-color-focus);
+    
     border-color: var(--primary-color-border-focus);
     box-shadow: 0 0 0 0.25rem var(--primary-color-box-shadow);
   }
@@ -144,4 +144,7 @@
     width: 30px;
     height: 30px;
     cursor: pointer;
+  }
+  .search,.cart {
+   margin: 0 10px;
   }
