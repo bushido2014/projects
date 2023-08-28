@@ -133,3 +133,15 @@
     margin-bottom: 0.5rem;
     line-height: 1.2;
   }
+  .header {
+    padding: 15px 0;
+    height: 100vh;
+  }
+  .header__nav {
+    justify-content: space-between;
+  }
+  .search,.cart svg {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
