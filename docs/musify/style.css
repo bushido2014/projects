@@ -54,7 +54,7 @@
     opacity: 1;
     color: var(--grey-color);
     font-family: var(--font-family-base);
-    background-color: var(--bg-color);
+    background-color: var(--white-color);
   }
   
   .container {
@@ -146,7 +146,11 @@
   .search,.cart {
    margin: 0 10px;
   }
-  body.dark h1, body.dark a {color: #fff;}
+  body.dark {
+    background: var(--bg-dark-color);
+  }
+  body.dark h1, 
+  body.dark a {color: #fff;}
 
 .checkbox {
   opacity: 0;
