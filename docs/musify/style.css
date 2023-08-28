@@ -144,15 +144,17 @@
     height: 30px;
     cursor: pointer;
   }
-  .search,.cart {
+  .search,.cart,.dark-mode {
    margin: 0 10px;
   }
+
+
+
   body.dark {
     background: var(--bg-dark-color);
     color:var(--white-color);
   }
-  /* body.dark h1, 
-  body.dark a {color: #fff;} */
+  
 
 .checkbox {
   opacity: 0;
