@@ -1,11 +1,11 @@
 :root {
     --bg-color: #fafafa;
     --bg-dark-color:#370665;
-    --primary-color: #be123c;
-    --primary-color-hover: #b10936;
-    --primary-color-focus: #bb2d3b;
-    --primary-color-border-hover: #c30634;
-    --primary-color-border-focus: #b02a37;
+    --primary-color: #F14A16;
+    --primary-color-hover: #F14A16;
+    --primary-color-focus: #cf522b;
+    --primary-color-border-hover: #ee592c;
+    --primary-color-border-focus: #c53509;
     --primary-color-box-shadow: rgb(225 83 97 / 50%);
     --secondary-color: #032541;
     --white-color: #fff;
@@ -87,11 +87,11 @@
     border-color: var(--primary-color-border-focus);
     box-shadow: 0 0 0 0.25rem var(--primary-color-box-shadow);
   }
-.shop {
+  .button.shop {
   background-color: var(--primary-color);
   color: var(--white-color);
 }
-.shop:hover {
+.button.shop:hover {
   background-color: var(--primary-color-border-hover);
 }
 section {
@@ -133,6 +133,7 @@ section {
     margin-top: 1rem;
     margin-bottom: 1.5rem;
     line-height: 1.3;
+    font-weight: 700;
   }
   h2 {
     font-size: 2.2rem;
