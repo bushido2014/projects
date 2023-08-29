@@ -334,11 +334,11 @@ margin-bottom: 0.5rem;
     position: absolute;
     opacity: 0;
     width: 100%;
-    top: -100px;
+    top: 0;
     width: 100%;
     text-align: center;
     z-index: 11;
-    display: block;
+    flex-direction: column;
   }
   .nav-list.active {
     transform: translatey(7.5rem);
@@ -365,5 +365,18 @@ margin-bottom: 0.5rem;
 
   .wirelles-wrapper {
     flex-wrap: wrap;
+  }
+}
+@media (hover: hover) and (pointer: fine) {
+  .hamburger:hover .hamburger__line {
+    background-color: #8d9aa6;
+  }
+  .hamburger:hover .hamburger__line:nth-child(1) {
+    transform: translatex(-1rem);
+    background-color: salmon;
+  }
+  .hamburger:hover .hamburger__line:nth-child(3) {
+    transform: translatex(-1rem);
+    background-color: salmon;
   }
 }
