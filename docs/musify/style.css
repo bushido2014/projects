@@ -2,7 +2,7 @@
     --bg-color: #fafafa;
     --bg-dark-color:#370665;
     --primary-color: #F14A16;
-    --primary-color-hover: #F14A16;
+    --primary-color-hover: #e05125;
     --primary-color-focus: #cf522b;
     --primary-color-border-hover: #ee592c;
     --primary-color-border-focus: #c53509;
@@ -220,9 +220,23 @@ section {
 .desc {
   padding: 30px 50px;
 }
-.hero-desc__footer {
+.hero-item.desc span {
+  color: var(--primary-color);
+}
+.hero-item .hero-item__footer {
   padding: 10px 0;
 }
-.hero-desc__footer .button {
-  margin: 0 10px;
+.hero-item .hero-item__footer .button {
+  margin: 0 15px;
+}
+.wirelles-wrapper {
+  justify-content: flex-end;
+  margin-top: -60px;
+}
+.wirelles-item {
+  padding: 15px;
+  border-radius: 25px;
+border: 1px solid rgba(255, 255, 255, 0.70);
+background: linear-gradient(155deg, rgba(192, 192, 192, 0.63) 0%, rgba(255, 255, 255, 0.49) 0.01%, rgba(255, 255, 255, 0.07) 100%);
+backdrop-filter: blur(15px);
 }
