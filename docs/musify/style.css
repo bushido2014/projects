@@ -127,9 +127,7 @@ section {
     display: flex;
     align-items: center;
   }
-  .card-wraper {
-    grid-template-columns: repeat(3, 1fr);
-  }
+ 
   h1 {
     font-size: 3.2rem;
     margin-top: 1rem;
@@ -146,7 +144,7 @@ section {
 .header {
     padding: 15px 0;
     height: 100vh;
-    position: relative;
+    
   }
 .header__nav {
     justify-content: space-between;
@@ -334,7 +332,7 @@ margin-bottom: 0.5rem;
     position: absolute;
     opacity: 0;
     width: 100%;
-    top: 0;
+    top: -120px;
     width: 100%;
     text-align: center;
     z-index: 11;
