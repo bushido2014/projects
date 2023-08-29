@@ -146,6 +146,7 @@ section {
 .header {
     padding: 15px 0;
     height: 100vh;
+    position: relative;
   }
 .header__nav {
     justify-content: space-between;
@@ -333,7 +334,9 @@ margin-bottom: 0.5rem;
     position: absolute;
     opacity: 0;
     width: 100%;
-    top: -39px;
+    top: -100px;
+    width: 100%;
+    text-align: center;
     z-index: 11;
     display: block;
   }
