@@ -87,7 +87,14 @@
     border-color: var(--primary-color-border-focus);
     box-shadow: 0 0 0 0.25rem var(--primary-color-box-shadow);
   }
-  section {
+.shop {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+.shop:hover {
+  background-color: var(--primary-color-border-hover);
+}
+section {
     padding: 60px 0;
   }
   
@@ -206,8 +213,11 @@
   align-self: center;
   padding: 20px 30px;
 }
-.hero-desc {
-  padding: 30px;
+.hero-item {
+  width: 50%;
+}
+.desc {
+  padding: 30px 50px;
 }
 .hero-desc__footer {
   padding: 10px 0;
