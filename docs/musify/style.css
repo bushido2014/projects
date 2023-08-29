@@ -268,7 +268,9 @@ margin-bottom: 0.5rem;
     
   }
   .wirelles-item {
-    width: 50%;
+    width: 100%;
+    margin: 15px 0;
+    text-align: center;
   }
   .hero {
     flex-direction: column;
