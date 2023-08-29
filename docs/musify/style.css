@@ -261,6 +261,11 @@ margin-bottom: 0.5rem;
   color: var(--price-color);
   margin-right: 10px;
 }
+@media only screen and (max-width: 1200px) {
+  .wirelles-wrapper {
+    margin-top: 150px;
+  }
+}
 @media only screen and (max-width: 992px) {
   .wirelles-wrapper {
     margin-top: 100px;
