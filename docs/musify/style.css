@@ -15,7 +15,7 @@
     --light-blue-color: #79b8f3;
     --black-color: #000;
     --green-color: #23804a;
-    --yellow-color: #eace4c;
+    --price-color: #FC9918;
     --font-size-base: 16px;
     --font-family-base: 'Raleway', sans-serif;
     --line-height-base: 1.75;
@@ -82,6 +82,7 @@
   }
   .button:hover {
     border-color: var(--primary-color-border-hover);
+    color: var(--primary-color);
   }
   .button:focus {
     border-color: var(--primary-color-border-focus);
@@ -93,6 +94,7 @@
 }
 .button.shop:hover {
   background-color: var(--primary-color-border-hover);
+  border: 2px solid var(--primary-color-border-focus);
 }
 section {
     padding: 60px 0;
@@ -256,6 +258,17 @@ margin-bottom: 0.5rem;
   width: 150px;
 }
 .wirelles-item span:first-child {
-  color: var(--primary-color);
+  color: var(--price-color);
   margin-right: 10px;
+}
+@media only screen and (max-width: 992px) {
+  .wirelles-wrapper {
+    margin-top: 0;
+  }
+  .hero-item {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  
 }
