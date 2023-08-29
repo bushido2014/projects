@@ -205,7 +205,9 @@
   justify-content: space-between;
   align-self: center;
   padding: 20px 30px;
-  
+}
+.hero-desc {
+  padding: 30px;
 }
 .hero-desc__footer {
   padding: 10px 0;
