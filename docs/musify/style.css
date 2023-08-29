@@ -133,13 +133,19 @@
     margin-bottom: 0.5rem;
     line-height: 1.2;
   }
-  .header {
+.header {
     padding: 15px 0;
     height: 100vh;
   }
-  .header__nav {
+.header__nav {
     justify-content: space-between;
   }
+
+.nav-list__link {
+  padding: 8px 12px;
+  transition: all .25s;
+}
+
   .search,.cart .fa {
     width: 30px;
     height: 30px;
@@ -148,7 +154,9 @@
   .search,.cart,.dark-mode {
    margin: 0 10px;
   }
-
+.fa-shopping-cart {
+  padding-top: 10px;
+}
 
 
   body.dark {
