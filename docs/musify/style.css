@@ -264,6 +264,11 @@ margin-bottom: 0.5rem;
 @media only screen and (max-width: 992px) {
   .wirelles-wrapper {
     margin-top: 100px;
+    justify-content: center;
+    
+  }
+  .wirelles-item {
+    width: 50%;
   }
   .hero {
     flex-direction: column;
