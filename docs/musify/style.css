@@ -201,3 +201,7 @@
 .checkbox:checked + .checkbox-label .ball {
   transform: translateX(24px);
 }
+.hero {
+  justify-content: space-between;
+  align-self: center;
+}
