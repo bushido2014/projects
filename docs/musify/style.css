@@ -149,7 +149,9 @@ section {
     justify-content: space-between;
     position: relative;
   }
-
+.nav-list {
+  transition: all 0.3s ease-in-out;
+}
 .nav-list__link {
   padding: 8px 12px;
   transition: all .25s;
