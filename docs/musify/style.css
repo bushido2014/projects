@@ -150,7 +150,7 @@ section {
     position: relative;
   }
 .nav-list {
-  transition: all 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .nav-list__link {
   padding: 8px 12px;
@@ -265,8 +265,7 @@ margin-bottom: 0.5rem;
 /****/
 .hamburger {
   position: relative;
-
-  background: #ffffff;
+  background: transparent;
   padding: 0.3rem;
   border: none;
   cursor: pointer;
@@ -274,7 +273,7 @@ margin-bottom: 0.5rem;
   z-index: 13;
 }
 .hamburger__line {
-  background-color: #708090;
+  background-color: #53595f;
   height: 0.4rem;
   width: 3.5rem;
   margin: 0.5rem;
