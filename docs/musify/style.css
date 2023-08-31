@@ -144,7 +144,6 @@ section {
 .header {
     padding: 15px 0;
     height: 100vh;
-    
   }
 .header__nav {
     justify-content: space-between;
@@ -330,7 +329,7 @@ margin-bottom: 0.5rem;
   }
   .nav-list {
     position: absolute;
-    opacity: 0;
+    display: none;
     width: 100%;
     top: -120px;
     left: 0;
@@ -341,7 +340,7 @@ margin-bottom: 0.5rem;
   }
   .nav-list.active {
     transform: translatey(7.5rem);
-    opacity: 1;
+    display: block;
   }
   .nav-list li {
     width: 100%;
