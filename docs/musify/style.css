@@ -10,11 +10,6 @@
     --secondary-color: #032541;
     --white-color: #fff;
     --grey-color: #404040;
-    --light-grey-color: rgba(242, 244, 246, 0.7);
-    --blue-color: #5ca0e0;
-    --light-blue-color: #79b8f3;
-    --black-color: #000;
-    --green-color: #23804a;
     --price-color: #FC9918;
     --font-size-base: 16px;
     --font-family-base: 'Raleway', sans-serif;
@@ -96,10 +91,6 @@
   background-color: var(--primary-color-border-hover);
   border: 2px solid var(--primary-color-border-focus);
 }
-section {
-    padding: 60px 0;
-  }
-  
   ul {
     margin: 0;
     padding: 0;
@@ -119,6 +110,7 @@ section {
   img {
     max-width: 100%;
   }
+
   .grid {
     display: grid;
     grid-gap: 30px;
@@ -168,14 +160,11 @@ section {
 .fa-shopping-cart {
   padding-top: 10px;
 }
-
-
-  body.dark {
-    background: var(--bg-dark-color);
-    color:var(--white-color);
+body.dark {
+  background: var(--bg-dark-color);
+  color:var(--white-color);
   }
   
-
 .checkbox {
   opacity: 0;
   position: absolute;
