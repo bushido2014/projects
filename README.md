@@ -14,6 +14,8 @@ landing pages, html multipage websites, apps
 
 [wavesurferjs-app](https://github.com/bushido2014/projects/tree/main/docs/wavesurferjs-app) -- Music App with wavesurfer.js -- [See Demo](https://bushido2014.github.io/projects/wavesurferjs-app/)
 
+[Musify](https://github.com/bushido2014/projects/tree/main/docs/musify) -- Dark/Light Mode -- [See Demo](https://bushido2014.github.io/projects/musify/)
+
 
 
 
