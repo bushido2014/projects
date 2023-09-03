@@ -350,11 +350,13 @@ margin-bottom: 0.5rem;
     border-top: 1px solid #eeeeee;
   }
 
-
   .wirelles-wrapper {
     flex-wrap: wrap;
   }
-}
+  .hero-item__footer .button.shop {
+    margin-bottom: 15px!important;
+  }
+
 @media (hover: hover) and (pointer: fine) {
   .hamburger:hover .hamburger__line {
     background-color: #8d9aa6;
