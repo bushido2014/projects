@@ -40,6 +40,9 @@ html {
     padding-left:15px;
     padding-right:15px;
   }
+  .swiper.animeslide {
+    height: 100vh;
+  }
   .animeslide-slide {
     color:#fff;
   }
