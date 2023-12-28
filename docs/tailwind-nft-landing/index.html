@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600&display=swap" rel="stylesheet">
     <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
 </head>
 <script>
     tailwind.config = {
@@ -35,17 +35,20 @@
         background: url(img/hero-bg.png), lightgray 0px 0px / 100% 100% no-repeat;
         height: 100vh;
     }
+    .menu a{
+        @apply py-3 px-6;
+    }
     </style>
 <body>
  <header class="fixed top-0 left-0 right-0 py-6 bg-transparent z-10">
 <div class="container">
     <nav class="flex items-center justify-between">
-    <div>
+    <div class="flex items-center">
     <div><img src="img/nft-logo.png" alt="nft"></div>
-    <div><input type="text"></div>
+    <div class="ml-6 w-60"><input type="text" class="form-input w-full block"></div>
    </div>
    <div class="flex">
-    <ul class="flex">
+    <ul class="menu flex">
         <li><a href="#">Home</a></li>
         <li><a href="#">Pages</a></li>
         <li><a href="#">Explore</a></li>
