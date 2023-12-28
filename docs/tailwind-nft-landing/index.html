@@ -38,23 +38,23 @@
     }
 
     .button {
-      @apply focus:outline-none focus:ring-2  focus:ring-offset-2  text-white font-semibold py-4 px-10 rounded-lg transition-all duration-300 mx-2;
+      @apply focus:outline-none focus:ring-2  focus:ring-offset-2  text-white font-semibold py-3 px-12 rounded-lg transition-all duration-300 mx-2;
     }
     .primary {
       @apply bg-purple-500 hover:bg-purple-700 focus:ring-purple-400 focus:ring-offset-purple-50;
     }
     .seconadry {
-      @apply bg-white hover:bg-gray-100 ring-offset-2	shadow-inner text-slate-800 hover:shadow-md;
+      @apply bg-white hover:bg-gray-100 ring-offset-2	shadow-inner text-slate-800 shadow-md;
     }
     h1, h2,h3, h4 {
       @apply font-bold;
     }
     .scrolled {
-      @apply bg-purple-500 text-white;
+      @apply bg-purple-700 text-white;
     }
     </style>
 <body>
- <header class="fixed top-0 left-0 right-0 py-6 bg-transparent z-10 duration-500 ease-linear" id="header">
+ <header class="fixed top-0 left-0 right-0 py-4 bg-transparent z-10 duration-500 ease-linear" id="header">
 <div class="container">
     <nav class="flex items-center justify-between">
     <div class="flex items-center">
@@ -99,7 +99,7 @@
         <div><img src="img/figure1.png"></div>
         <div class="bg-white p-4 flex">
          <div><img src="img/avatar1.png"></div>
-         <div>
+         <div class="pl-3">
           <p class="text-lg text-black">Light Bars</p>
           <p class="text-sm text-purple-500">Wow Frens</p>
         </div>
@@ -108,9 +108,9 @@
 
       <div class="rounded-md shadow-lg">
         <div><img src="img/fugure2.png"></div>
-        <div class="bg-white p-4">
+        <div class="bg-white p-4 flex">
           <div><img src="img/avatar2.png"></div>
-          <div>
+          <div class="pl-3">
            <p class="text-lg text-black">Etherium NFT Launching Lab</p>
            <p class="text-sm text-purple-500">051_Hart</p>
          </div>
@@ -119,9 +119,9 @@
 
       <div class="rounded-md shadow-lg">
         <div><img src="img/figure3.png"></div>
-        <div class="bg-white p-4">
+        <div class="bg-white p-4 flex">
           <div><img src="img/avatar2.png"></div>
-          <div>
+          <div class="pl-3">
            <p class="text-lg text-black">Oceania \\ OVERSEER 017</p>
            <p class="text-sm text-purple-500">MadeByM1KE</p>
          </div>
@@ -131,6 +131,13 @@
     </div>
   </div>
  </div>
+ <section class="py-10">
+  <div class="container">
+    <div class="pb-8 text-center">
+      <h2 class="text-3xl">Top collections over <span class="text-purple-500">last 7 days</span></h2>
+    </div>
+  </div>
+ </section>
  <script src="js/app.js"></script>   
 </body>
 </html>
