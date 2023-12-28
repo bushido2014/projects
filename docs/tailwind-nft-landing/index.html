@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap" rel="stylesheet">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
 </head>
@@ -40,13 +40,16 @@
     }
 
     .button {
-      @apply focus:outline-none focus:ring-2  focus:ring-offset-2  text-white font-semibold h-12 px-10 rounded-lg transition-all duration-300 mx-2;
+      @apply focus:outline-none focus:ring-2  focus:ring-offset-2  text-white font-semibold py-4 px-10 rounded-lg transition-all duration-300 mx-2;
     }
     .primary {
       @apply bg-purple-500 hover:bg-purple-700 focus:ring-purple-400 focus:ring-offset-purple-50;
     }
     .seconadry {
-      @apply bg-white ring-offset-2	shadow-inner text-slate-800;
+      @apply bg-white hover:bg-gray-100 ring-offset-2	shadow-inner text-slate-800 hover:shadow-md;
+    }
+    h1, h2,h3, h4 {
+      @apply font-bold;
     }
     </style>
 <body>
@@ -83,9 +86,9 @@
  </header>   
  <div class="hero relative py-16">
   <div class="container text-center pt-24">
-    <h1 class="text-6xl">Collect Digital Art.</h1>
+    <h1 class="text-6xl mb-4">Collect Digital Art.</h1>
     <p class="text-lg text-slate-700">Buy and sell NFTs from the world's top artists</p>
-    <div class="py-8 text-center">
+    <div class="py-10 text-center">
       <a href="#" class="button primary">Create</a>
       <a href="#" class="button seconadry">Explore</a>
     </div>
@@ -93,17 +96,35 @@
       
       <div class="rounded-md">
         <div><img src="img/figure1.png"></div>
-        <div class="bg-white"></div>
+        <div class="bg-white p-4 flex">
+         <div><img src="img/avatar1.png"></div>
+         <div>
+          <p class="text-lg text-black">Light Bars</p>
+          <p class="text-sm text-purple-500">Wow Frens</p>
+        </div>
+        </div>
       </div>
 
       <div class="rounded-md">
         <div><img src="img/fugure2.png"></div>
-        <div class="bg-white p-3"></div>
+        <div class="bg-white p-4">
+          <div><img src="img/avatar2.png"></div>
+          <div>
+           <p class="text-lg text-black">Etherium NFT Launching Lab</p>
+           <p class="text-sm text-purple-500">051_Hart</p>
+         </div>
+        </div>
       </div>
 
       <div class="rounded-md">
         <div><img src="img/figure3.png"></div>
-        <div class="bg-white p-3"></div>
+        <div class="bg-white p-4">
+          <div><img src="img/avatar2.png"></div>
+          <div>
+           <p class="text-lg text-black">Oceania \\ OVERSEER 017</p>
+           <p class="text-sm text-purple-500">MadeByM1KE</p>
+         </div>
+        </div>
       </div>
 
     </div>
