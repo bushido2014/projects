@@ -40,10 +40,13 @@
     }
 
     .button {
-      @apply focus:outline-none focus:ring-2  focus:ring-offset-2  text-white font-semibold h-12 px-6 rounded-lg w-full flex items-center justify-center sm:w-auto transition-all duration-300;
+      @apply focus:outline-none focus:ring-2  focus:ring-offset-2  text-white font-semibold h-12 px-10 rounded-lg transition-all duration-300 mx-2;
     }
     .primary {
-@apply bg-purple-500 hover:bg-purple-700 focus:ring-purple-400 focus:ring-offset-purple-50;
+      @apply bg-purple-500 hover:bg-purple-700 focus:ring-purple-400 focus:ring-offset-purple-50;
+    }
+    .seconadry {
+      @apply bg-white ring-offset-2	shadow-inner text-slate-800;
     }
     </style>
 <body>
@@ -78,8 +81,8 @@
 </nav>
 </div>
  </header>   
- <div class="hero relative pt-16">
-  <div class="container text-center">
+ <div class="hero relative py-16">
+  <div class="container text-center pt-24">
     <h1 class="text-6xl">Collect Digital Art.</h1>
     <p class="text-lg text-slate-700">Buy and sell NFTs from the world's top artists</p>
     <div class="py-8 text-center">
