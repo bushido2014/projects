@@ -1,19 +1,18 @@
-let scrollpos = window.scrollY
-const header = document.querySelector("header")
-const header_height = header.offsetHeight
+const header = document.getElementById("header");
 
 
-const add_class_on_scroll = () => header.classList.add("myclass")
-const remove_class_on_scroll = () => header.classList.remove("text-class")
+const sticky = header.offsetTop;
 
 
-window.addEventListener('scroll', function() { 
-  scrollpos = window.scrollY
-
-  if (scrollpos >= header_height) { add_class_on_scroll() }
-  else { remove_class_on_scroll() }
-
-  console.log(scrollpos)
-})
+window.onscroll = function() {
+ 
+  if (window.pageYOffset > sticky) {
+    
+    header.classList.add("scrolled");
+  } else {
+   
+    header.classList.remove("scrolled");
+  }
+};
 
 
