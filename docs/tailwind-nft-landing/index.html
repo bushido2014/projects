@@ -29,7 +29,7 @@
   </script>
    <style type="text/tailwindcss">
     body {
-      @apply font-dm antialiased;
+      @apply font-dm antialiased font-base;
     }
     .hero {
         background: url(img/hero-bg.png), lightgray 0px 0px / 100% 100% no-repeat;
@@ -37,6 +37,13 @@
     }
     .menu a{
         @apply py-3 px-6;
+    }
+
+    .button {
+      @apply focus:outline-none focus:ring-2  focus:ring-offset-2  text-white font-semibold h-12 px-6 rounded-lg w-full flex items-center justify-center sm:w-auto transition-all duration-300;
+    }
+    .primary {
+@apply bg-purple-500 hover:bg-purple-700 focus:ring-purple-400 focus:ring-offset-purple-50;
     }
     </style>
 <body>
@@ -65,34 +72,37 @@
    <div>
     <a href="#">icon</a>
     <a href="#">icon2</a>
-    <a href="#">icon3</a>
+    
 </div>
    </div>
 </nav>
 </div>
  </header>   
- <div class="hero relative">
-  <div class="container">
-    <h1>Collect Digital Art.</h1>
-    <p>Buy and sell NFTs from the world's top artists</p>
-    <div>
-      <a href="#">Create</a>
-      <a href="#">Explore</a>
+ <div class="hero relative pt-16">
+  <div class="container text-center">
+    <h1 class="text-6xl">Collect Digital Art.</h1>
+    <p class="text-lg text-slate-700">Buy and sell NFTs from the world's top artists</p>
+    <div class="py-8 text-center">
+      <a href="#" class="button primary">Create</a>
+      <a href="#" class="button seconadry">Explore</a>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
       
       <div class="rounded-md">
         <div><img src="img/figure1.png"></div>
         <div class="bg-white"></div>
       </div>
+
       <div class="rounded-md">
         <div><img src="img/fugure2.png"></div>
         <div class="bg-white p-3"></div>
       </div>
+
       <div class="rounded-md">
         <div><img src="img/figure3.png"></div>
         <div class="bg-white p-3"></div>
       </div>
+
     </div>
   </div>
  </div>
