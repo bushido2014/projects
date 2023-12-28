@@ -1,5 +1,5 @@
 let scrollpos = window.scrollY
-const header = document.querySelector("nav")
+const header = document.querySelector("header")
 const header_height = header.offsetHeight
 
 
