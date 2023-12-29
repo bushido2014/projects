@@ -15,4 +15,13 @@ window.onscroll = function() {
   }
 };
 
-
+const testimoinal = new Swiper(".testimonial-slide", {
+  // Optional parameters
+  loop: true,
+  slidesPerView: 1,
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-prev",
+    prevEl: ".swiper-button-next"
+  }
+});
