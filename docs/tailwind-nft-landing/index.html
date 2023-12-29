@@ -87,6 +87,9 @@
     .nft-item_img img {
       @apply block m-auto;
     }
+    .join .button {
+      @apply rounded-full absolute right-1 top-1;
+    }
     </style>
 <body>
  <header class="fixed w-full bg-transparent z-10 duration-500 ease-linear py-3" id="header">
@@ -677,9 +680,9 @@
         <p class="text-lg">Join our mailing list to stay in the loop with our newest feature releases,
           NFT drops, and tips and tricks for navigating Inaamajay</p>
       </div>
-      <div class="relative">
-       <input type="text" class="form-input w-full rounded-full py-6">
-       <button type="submit" class="button primary rounded-full absolute right-2">Subscribe</button>
+      <div class="relative join">
+       <input type="text" class="form-input w-full rounded-full py-4 border">
+       <button type="submit" class="button primary">Subscribe</button>
       </div>
     </div>
   </div>
