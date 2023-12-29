@@ -30,7 +30,8 @@
       @apply font-dm antialiased text-base bg-gray-50;
     }
     .hero {
-        background: url(img/hero-bg.png), lightgray 0px 0px / 100% 100% no-repeat;
+        /*background: url(img/hero-bg.png), lightgray 0px 0px / 100% 100% no-repeat;*/
+        @apply bg-gradient-to-r from-fuchsia-100 from-10% via-violet-50 via-30% to-indigo-100 to-90%;
     }
     .menu a{
         @apply py-3 px-6;
@@ -153,7 +154,7 @@
 </div>
  </header>  
 
- <div class="hero relative pt-12">
+ <div class="hero relative py-16">
   <div class="container pt-24">
     <div class="text-center">
     <h1 class="text-6xl mb-4">Collect Digital Art.</h1>
