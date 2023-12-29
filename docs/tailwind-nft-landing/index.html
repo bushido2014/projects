@@ -64,11 +64,18 @@
       @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8;
     }
     .card {
-      @apply p-7 rounded-lg border overflow-hidden;
+      @apply px-7 py-5 rounded-lg border overflow-hidden;
     }
-    .card-header, .card-footer {
+    .card-header, .card-footer,.card-body_title {
       @apply flex justify-between items-center;
     }
+    .card-image {
+      @apply relative rounded-lg overflow-hidden;
+    }
+    .card-image_text {
+      @apply bg-white p-2 absolute left-5 bottom-6 rounded-lg;
+    }
+    
     </style>
 <body>
  <header class="fixed w-full bg-transparent z-10 duration-500 ease-linear py-3" id="header">
@@ -326,7 +333,7 @@
 
  <section class="py-10">
   <div class="container">
-    <div class="pb-8 text-center">
+    <div class="pb-8 flex items-center justify-center">
       <h2 class="text-3xl"> <span class="mr-3"><img src="img/love.svg"></span><span>Auctions</span> </h2>
     </div>
   
@@ -339,12 +346,12 @@
         </div>
         <div><img src="img/auction/dots.png"></div>
       </div>
-      <div class="card-image relative rounded-lg overflow-hidden">
+      <div class="card-image">
       <img src="img/auction/card1.png">
-      <div class="bg-white px-3 px-2 absolute left-auto right-auto bottom-6 rounded-lg">This auction has ended</div>
+      <div class="card-image_text">This auction has ended</div>
       </div>
-      <div class="card-body">
-        <div class="flex">
+      <div class="card-body py-3">
+        <div class="card-body_title pb-2">
           <h4>Monkeyme#155</h4>
           <span><img src="img/card-icon.svg"></span>
         </div>
@@ -353,9 +360,9 @@
         </div>
        
       </div>
-      <div class="card-footer">
+      <div class="card-footer pt-2">
         <div>Place bid</div>
-        <div class="flex">
+        <div class="flex items-center">
           <span><img src="img/auction/like.svg"></span>
           <span>25</span>
         </div>
