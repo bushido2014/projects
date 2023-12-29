@@ -79,10 +79,13 @@
       @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8;
     }
     .nft-item {
-      @apply p-3;
+      @apply p-3 text-center;
     }
     .nft-item_title {
       @apply py-4 font-semibold text-lg;
+    }
+    .nft-item_img img {
+      @apply block m-auto;
     }
     </style>
 <body>
@@ -663,6 +666,20 @@
              and declining-price listings.
              You choose how you want to sell your NFTs!</p>
         </div>
+      </div>
+    </div>
+  </div>
+ </section>
+ <section class="py-10">
+  <div class="container">
+    <div class="max-w-3xl mx-auto py-3">
+      <div class="pb-6 text-center">
+        <p class="text-lg">Join our mailing list to stay in the loop with our newest feature releases,
+          NFT drops, and tips and tricks for navigating Inaamajay</p>
+      </div>
+      <div class="relative">
+       <input type="text" class="form-input w-full rounded-full py-6">
+       <button type="submit" class="button primary rounded-full absolute right-2">Subscribe</button>
       </div>
     </div>
   </div>
