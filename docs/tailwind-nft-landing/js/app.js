@@ -15,10 +15,10 @@ window.onscroll = function() {
   }
 };
 
-const testimoinal = new Swiper(".testimonial-slide", {
+const testimoinal = new Swiper(".collection", {
   // Optional parameters
   loop: true,
-  slidesPerView: 1,
+  slidesPerView: 2,
   // Navigation arrows
   navigation: {
     nextEl: ".swiper-button-prev",
