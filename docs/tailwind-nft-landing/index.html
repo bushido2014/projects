@@ -88,7 +88,7 @@
       @apply block m-auto;
     }
     .join .button {
-      @apply rounded-full absolute right-1 top-1;
+      @apply rounded-full absolute right-0 top-1;
     }
     </style>
 <body>
@@ -105,7 +105,7 @@
       <svg width="20" height="20" fill="currentColor" class="absolute left-3 top-1/2 -mt-2.5 text-slate-400 pointer-events-none group-focus-within:text-blue-500" aria-hidden="true">
         <path fill-rule="evenodd" clip-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" />
       </svg>
-      <input type="text" class="form-input w-28 focus:w-full block rounded-md pl-8 transition-all ease-linear duration-300 border-slate-300">
+      <input type="text" class="form-input w-28 focus:border-purple-800 focus:w-full block rounded-md pl-8 transition-all ease-linear duration-300 border-slate-200">
     </div>
    </div>
    <div class="flex items-center">
@@ -384,7 +384,7 @@
       </div>
      </div>
 
-     <div class="card">
+     <div class="card group">
       <div class="card-header pb-2">
         <div class="flex">
           <span><img src="img/auction/creators/smile.png"></span>
@@ -393,7 +393,7 @@
         <div><img src="img/auction/dots.png"></div>
       </div>
       <div class="card-image">
-      <img src="img/auction/card2.png">
+      <img src="img/auction/card2.png" class="transform transition duration-500 group-hover:scale-110">
       <div class="card-image_text">This auction has ended</div>
       </div>
       <div class="card-body py-3">
@@ -681,7 +681,7 @@
           NFT drops, and tips and tricks for navigating Inaamajay</p>
       </div>
       <div class="relative join">
-       <input type="text" class="form-input w-full rounded-full py-4 border">
+       <input type="text" class="form-input w-full rounded-full py-4 border-slate-300 focus:border-purple-500 transition duration-300">
        <button type="submit" class="button primary">Subscribe</button>
       </div>
     </div>
