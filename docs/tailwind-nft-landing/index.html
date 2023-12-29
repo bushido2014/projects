@@ -27,7 +27,7 @@
   </script>
    <style type="text/tailwindcss">
     body {
-      @apply font-dm antialiased text-base;
+      @apply font-dm antialiased text-base bg-gray-50;
     }
     .hero {
         background: url(img/hero-bg.png), lightgray 0px 0px / 100% 100% no-repeat;
@@ -75,7 +75,15 @@
     .card-image_text {
       @apply bg-white p-2 absolute left-5 bottom-6 rounded-lg;
     }
-    
+    .nft-wrapp {
+      @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8;
+    }
+    .nft-item {
+      @apply p-3;
+    }
+    .nft-item_title {
+      @apply py-4 font-semibold text-lg;
+    }
     </style>
 <body>
  <header class="fixed w-full bg-transparent z-10 duration-500 ease-linear py-3" id="header">
@@ -185,7 +193,7 @@
   </div>
  </div>
 
- <section class="py-10 bg-gray-50">
+ <section class="py-10">
   <div class="container">
     <div class="pb-8">
       <div class="text-center py-10">
@@ -331,7 +339,7 @@
   </div>
  </section>
 
- <section class="py-10 bg-gray-50">
+ <section class="py-10">
   <div class="container">
     <div class="pb-8">
       <h2 class="text-3xl flex items-center justify-center"> <span class="mr-3"><img src="img/love.svg"></span><span>Auctions</span> </h2>
@@ -589,10 +597,79 @@
 
   </div>
 </div>
+<div class="py-10 text-center">
+  <a href="#" class="button primary">Load More</a>
+</div>
+ </section>
+ <section class="py-10">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="text-3xl">Create and sell your NFTs</h2>
+    </div>
+    <div class="nft-wrapp py-6">
+      <div class="nft-item">
+        <div class="nft-item_img">
+          <img src="img/nft.png">
+        </div>
+        <div class="nft-item_title">
+          1. Set up your wallet
+        </div>
+        <div class="nft-item_content">
+          <p>Once you've set up your wallet of
+            choice, connect it to OpenSeaby
+            clicking the NFT Marketplacein the
+            top right corner.</p>
+        </div>
+      </div>
+      <div class="nft-item">
+        <div class="nft-item_img">
+          <img src="img/nft1.png">
+        </div>
+        <div class="nft-item_title">
+          2. Create Your Collection
+        </div>
+        <div class="nft-item_content">
+          <p>Click Create and set up your
+            collection. Add social links, a
+            description, profile & banner
+            images, and set a secondary sales
+            fee.</p>
+        </div>
+      </div>
+      <div class="nft-item">
+        <div class="nft-item_img">
+          <img src="img/nft2.png">
+        </div>
+        <div class="nft-item_title">
+          3. Add Your NFTs
+        </div>
+        <div class="nft-item_content">
+          <p>Upload your work (image, video,
+            audio, or 3D art), add a title and
+            description, and customize your
+            NFTs with properties, stats.</p>
+        </div>
+      </div>
+      <div class="nft-item">
+        <div class="nft-item_img">
+          <img src="img/nft3.png">
+        </div>
+        <div class="nft-item_title">
+          4. List Them For Sale
+        </div>
+        <div class="nft-item_content">
+          <p>Choose between auctions,
+             fixed- price listings, 
+             and declining-price listings.
+             You choose how you want to sell your NFTs!</p>
+        </div>
+      </div>
+    </div>
+  </div>
  </section>
  <footer class="py-3 bg-black text-white">
   <div class="container">
-    <p></p>
+    <p>footer</p>
   </div>
  </footer>
  <script src="js/app.js"></script>   
