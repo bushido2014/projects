@@ -18,7 +18,7 @@ window.onscroll = function() {
 const testimoinal = new Swiper(".collection", {
   // Optional parameters
   loop: true,
-  speed: 900,
+  speed: 1200,
   autoplay: {
     delay: 3300,
     disableOnInteraction: false,
