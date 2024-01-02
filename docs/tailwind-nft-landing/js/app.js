@@ -23,7 +23,7 @@ const testimoinal = new Swiper(".collection", {
     delay: 3300,
     disableOnInteraction: false,
   },
-  slidesPerView: 2,
+  slidesPerView: 1,
   spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
