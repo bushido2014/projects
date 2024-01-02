@@ -18,11 +18,14 @@ window.onscroll = function() {
 const testimoinal = new Swiper(".collection", {
   // Optional parameters
   loop: true,
+  autoplay: {
+    delay: 3300,
+    disableOnInteraction: false,
+  },
   slidesPerView: 2,
   spaceBetween: 30,
-  // Navigation arrows
-  navigation: {
-    nextEl: ".swiper-button-prev",
-    prevEl: ".swiper-button-next"
-  }
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
 });
