@@ -99,6 +99,9 @@
     .join .button {
       @apply rounded-full absolute right-0 top-1;
     }
+    .swiper-pagination {
+      bottom: 0;
+    }
     </style>
 <body>
  <header class="fixed w-full bg-transparent z-10 duration-500 ease-linear py-3" id="header">
@@ -700,14 +703,14 @@
   <div class="container">
     <div class="pb-8">
       <h2 class="flex justify-center items-center text-3xl">
-        <span><img src="img/star.svg"></span><span>Featured collections</span></h2>
+        <span class="mr-2"><img src="img/star.svg"></span><span>Featured collections</span></h2>
     </div>
 
     <div class="max-w-2xl mx-auto">
       <!-- Slider main container -->
 <div class="swiper collection">
   <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
+  <div class="swiper-wrapper py-10">
     <!-- Slides -->
     <div class="swiper-slide">
       <div class="border rounded-lg p-6">
