@@ -19,6 +19,7 @@ const testimoinal = new Swiper(".collection", {
   // Optional parameters
   loop: true,
   slidesPerView: 2,
+  spaceBetween: 30,
   // Navigation arrows
   navigation: {
     nextEl: ".swiper-button-prev",
