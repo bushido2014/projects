@@ -16,6 +16,10 @@ landing pages, html multipage websites, apps
 
 [Musify](https://github.com/bushido2014/projects/tree/main/docs/musify) -- Dark/Light Mode -- [See Demo](https://bushido2014.github.io/projects/musify/)
 
+[Swiper JS Text Animate](https://github.com/bushido2014/projects/tree/main/docs/swiperjs-animate) -- Swiper JS with text animation -- [See Demo](https://bushido2014.github.io/projects/swiperjs-animate/)
+
+[tailwind-nft-landing](https://github.com/bushido2014/projects/tree/main/docs/tailwind-nft-landing) -- Landing Page Tailwind CSS + Alpine JS + Swiper JS -- [See Demo](https://bushido2014.github.io/projects/tailwind-nft-landing/)
+
 
 
 
