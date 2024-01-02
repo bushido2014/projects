@@ -34,7 +34,7 @@ const testimoinal = new Swiper(".collection", {
       slidesPerView: 1,
       spaceBetween: 20,
     },
-    768: {
+    700: {
       slidesPerView: 2,
       spaceBetween: 30,
     },
