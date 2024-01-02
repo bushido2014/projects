@@ -29,4 +29,11 @@ const testimoinal = new Swiper(".collection", {
     el: ".swiper-pagination",
     clickable: true,
   },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    }
+
+  },
 });
